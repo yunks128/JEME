@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 // Import the JSON data directly
 // Note: You'll need to place the crossref_data.json file in the same directory as this component
 // or adjust the path accordingly
-import citationsData from './rapid_20250528_2.json';
+import citationsData from '../data/RAPID_analyzed.json';
 
 // Multi-select component
 const MultiSelect = ({ options, selectedValues, onChange, placeholder }) => {
