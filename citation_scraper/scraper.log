@@ -1,0 +1,87 @@
+
+==================================================
+Citation Scraper Batch Processing
+==================================================
+
+Processing: CARDAMOM
+  Input:  /home/ks/science-model-dashboard/public/data/cardamom_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/CARDAMOM_citations.json
+  ✓ Normalized 20 papers
+  Running citation scraper...
+  ✓ Successfully processed CARDAMOM
+
+--------------------------------------------------
+
+Processing: CMS-Flux
+  Input:  /home/ks/science-model-dashboard/public/data/cms_flux_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/CMS-Flux_citations.json
+  ✓ Normalized 15 papers
+  Running citation scraper...
+  ✓ Successfully processed CMS-Flux
+
+--------------------------------------------------
+
+Processing: ECCO
+  Input:  /home/ks/science-model-dashboard/public/data/ecco_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/ECCO_citations.json
+  ✓ Normalized 2038 papers
+  Running citation scraper...
+  ✗ Timeout processing ECCO
+
+--------------------------------------------------
+
+Processing: ISSM
+  Input:  /home/ks/science-model-dashboard/public/data/issm_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/ISSM_citations.json
+  ✓ Normalized 171 papers
+  Running citation scraper...
+  ✓ Successfully processed ISSM
+
+--------------------------------------------------
+
+Processing: MOMO-CHEM
+  Input:  /home/ks/science-model-dashboard/public/data/momo_chem_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/MOMO-CHEM_citations.json
+  ✓ Normalized 73 papers
+  Running citation scraper...
+  ✓ Successfully processed MOMO-CHEM
+
+--------------------------------------------------
+
+Processing: RAPID
+  Input:  /home/ks/science-model-dashboard/public/data/rapid_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/RAPID_citations.json
+  ✓ Normalized 16 papers
+  Running citation scraper...
+  ✓ Successfully processed RAPID
+
+--------------------------------------------------
+
+Processing: LES
+  Input:  /home/ks/science-model-dashboard/public/data/LES_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/LES_citations.json
+  ✓ Normalized 21 papers
+  Running citation scraper...
+  ✓ Successfully processed LES
+
+--------------------------------------------------
+
+Processing: EDMF
+  Input:  /home/ks/science-model-dashboard/public/data/EDMF_team_papers.json
+  Output: /home/ks/science-model-dashboard/citation_scraper/output/EDMF_citations.json
+  ✓ Normalized 25 papers
+  Running citation scraper...
+  ✓ Successfully processed EDMF
+
+--------------------------------------------------
+
+==================================================
+Batch processing complete!
+==================================================
+
+Output files saved to: /home/ks/science-model-dashboard/citation_scraper/output
+
+Next steps:
+1. Review the citation data in output directory
+2. Copy *_citations_only.json files to dashboard data directory
+3. Run LLM analysis on the citation data if needed
