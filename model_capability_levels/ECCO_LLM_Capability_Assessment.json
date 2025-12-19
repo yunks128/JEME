@@ -1,0 +1,318 @@
+{
+  "model_name": "ECCO",
+  "assessment_date": "2025-12-14T07:38:32.526692",
+  "total_papers": 31777,
+  "sample_size": 200,
+  "batches_successful": 40,
+  "batches_total": 40,
+  "scores": {
+    "MCL-1": {
+      "score": 2.31,
+      "evidence_count": 62,
+      "vote_count": 62,
+      "top_evidence": [
+        "The model uses the coupled ADCIRC+SWAN coastal circulation and wave model.",
+        "The Los Alamos sea ice model (CICE) is being tested... A built-in mixed layer ocean model in CICE is used.",
+        "Examined the consequences of decoupling photosynthesis (carbon fixation) and biosynthesis (biomass building).",
+        "Developed based on a regional sea ice\u2013ocean coupled model.",
+        "The model is described as a 'global ocean-sea ice model', indicating representation of complex physical processes and interactions between these two domains.",
+        "Used to provide boundary conditions for a regional model of tidal currents and flow/kelp interactions, implying ECCO represents the necessary physical processes.",
+        "Model used to study a region of high mesoscale variability and complex topography, requiring representation of complex dynamics.",
+        "Application of mechanistic ocean current modelling to simulate long-distance dispersal of buoyant seeds, requiring accurate surface physics.",
+        "Analyzes sea surface salinity (SSS) variance spectra in the mesoscale range, indicating a dynamical regime for the inverse cascade, a key physical process.",
+        "Models must represent non-spherical gravity, which plays a crucial role in LEO satellite orbit determination."
+      ],
+      "level_description": "Moderate complexity with some validated parameterizations"
+    },
+    "MCL-2": {
+      "score": 2.27,
+      "evidence_count": 48,
+      "vote_count": 46,
+      "top_evidence": [
+        "Coastal Ocean Reanalysis (CORA)... for the Gulf of Mexico and Atlantic Ocean.",
+        "Produced monthly maps of surface ocean fCO2 in the northern European coastal seas.",
+        "The simulated sea ice extent in the Arctic in control experiments is generally in good.",
+        "Parameterizations of algal photosynthesis commonly employed in global biogeochemical simulations.",
+        "A data assimilation system for the Southern Ocean (DASSO) was developed.",
+        "The study uses the 'high-resolution global ocean-sea ice model MITgcm-ECCO2', indicating its capability to resolve finer-scale features.",
+        "Model applied to Drake Passage, a region of high mesoscale variability where resolving eddies is essential for momentum transfer.",
+        "Analyzes SSS variance spectra in the mesoscale range from 180 to 430 km.",
+        "Supports calibration/validation for the SWOT mission's unprecedented spatial resolution over O(100km) distances.",
+        "Used to quantify and compare spatial structures of Subtropical Mode Waters in different ocean basins."
+      ],
+      "level_description": "Nearly full set of spatial scales covered"
+    },
+    "MCL-3": {
+      "score": 2.23,
+      "evidence_count": 37,
+      "vote_count": 37,
+      "top_evidence": [
+        "A 43-year reanalysis (1979\u20132021) of hourly coastal water levels.",
+        "Produced monthly maps... covering a time period from 1998 to 2016.",
+        "The Los Alamos sea ice model (CICE) is being tested in standalone mode for its suitability for seasonal time scale prediction.",
+        "Used to examine variability and changes of Arctic sea ice export during 1979\u20132012, covering multi-decadal and interannual time scales.",
+        "Model output used in a study of monthly mean water levels, demonstrating utility at this time scale.",
+        "Providing a comprehensive overview of Holocene vegetation history, reflecting long-term climate variability.",
+        "Used in the context of the Decadal Climate Prediction Project (DCPP) for simulating and predicting decadal variability.",
+        "Effective angular momentum (EAM) data, a model output, is used for high-frequency prediction of length of day (LOD).",
+        "Model data is used to compare summer climatology fields from the last century with those from 2000\u20132019, enabling multi-decadal analysis.",
+        "examines similar events in a 2,200\u2010yr simulation of Community Earth System Model, version 1."
+      ],
+      "level_description": "Nearly full set of time scales covered"
+    },
+    "MCL-4": {
+      "score": 2.43,
+      "evidence_count": 51,
+      "vote_count": 48,
+      "top_evidence": [
+        "Conducted by the Renaissance Computing Institute using the coupled ADCIRC+SWAN coastal circulation and wave model.",
+        "The Los Alamos sea ice model (CICE)... A built-in mixed layer ocean model in CICE is used.",
+        "Developed based on a regional sea ice\u2013ocean coupled model.",
+        "The model is explicitly identified as a coupled 'ocean-sea ice model', demonstrating integration of multiple Earth system components.",
+        "ECCO is used to drive a regional ecosystem model studying a kelp forest, coupling global physics with local biogeochemistry.",
+        "ECCO2 reanalysis provides initial conditions for a regional forecast model (CROCO), demonstrating coupling between different modeling systems.",
+        "Model provides ocean conditions to understand the control on flow dynamics of an ice shelf, implying ocean-ice interaction.",
+        "A related climate modeling effort uses a 'fully coupled model FGOALS-g3', demonstrating the state of practice for component integration.",
+        "Investigating phytoplankton community responses to atmospheric aerosol deposition events, coupling atmospheric and ocean biogeochemical processes.",
+        "Used alongside GRACE satellite data and ERA5-Land reanalysis to separate terrestrial and oceanic mass changes for estimating groundwater dynamics."
+      ],
+      "level_description": "Off-line coupling to multiple models OR full coupling between 2 components"
+    },
+    "MCL-5": {
+      "score": 2.09,
+      "evidence_count": 20,
+      "vote_count": 19,
+      "top_evidence": [
+        "A comparison with gridded SOCAT v5 data revealed standard deviations of the residuals 0\u2009\u00b1\u200926\u2009\u03bcatm in the North Sea.",
+        "The Los Alamos sea ice model (CICE) is being tested in standalone mode for its suitability for seasonal time scale prediction.",
+        "Assimilating SIC and SIT can suppress the overestimation of sea ice in the model.",
+        "Studying the impact of gravity models on LEO satellite orbit prediction for applications requiring real-time precise orbits.",
+        "Contributes to the Decadal Climate Prediction Project (DCPP), a coordinated multi-model investigation into decadal climate prediction.",
+        "Model-derived effective angular momentum (EAM) data are extensively utilized in the prediction of the universal time (UT1).",
+        "Sea\u2010Ice Forecasts With an Upgraded AWI Coupled Prediction System",
+        "The chosen seeding strategy... can restore global averages of temperature, precipitation and sea ice to present day values, but not simultaneously.",
+        "Used in analysis to understand discrepancies in the 2023/24 El Ni\u00f1o compared to earlier events, informing predictive understanding.",
+        "A machine learning model is proposed for the 'Prediction of Oceanic Mesoscale Eddy Properties and Propagation Trajectories,' using reanalysis data for training or validation."
+      ],
+      "level_description": "Routine use for prediction in limited settings"
+    },
+    "MCL-6": {
+      "score": 1.86,
+      "evidence_count": 8,
+      "vote_count": 8,
+      "top_evidence": [
+        "A related modeling effort produced a 'super-large ensemble simulation dataset with 110 members', requiring significant high-performance computing.",
+        "reducing the computation time by a factor of 5 at a given resolution.",
+        "Analysis of high-resolution (1 km) simulations of multiple large ocean basins (western Pacific, Gulf of Mexico, Arabian Sea) implies significant computational performance.",
+        "Used in a 13-model ensemble (PlioMIP2), implying significant computational requirements.",
+        "Ensemble forecasts are carried out to assess skill and uncertainty, requiring high-performance computing.",
+        "Investigates the convergence and application of the conjugate gradient algorithm (CGA) for 4DVar minimization.",
+        "A 24-member ensemble of ocean model integrations is used, implying significant high-performance computing (HPC) resources.",
+        "An ensemble Kalman filter (DEnKF) is interfaced with a sea ice model, a computationally intensive method requiring HPC."
+      ],
+      "level_description": "Scalable across multiple architectures (HPC + GPU, not cloud)"
+    },
+    "MCL-7": {
+      "score": 2.58,
+      "evidence_count": 58,
+      "vote_count": 56,
+      "top_evidence": [
+        "Positive Impact of CryoSat-2 Ice Thickness Initiation.",
+        "An ensemble-based Data Assimilation System for the Southern Ocean (DASSO)... which assimilates sea-ice thickness (SIT) together with sea-ice concentration (SIC) derived from satellites.",
+        "ECCO products are used for long-term reanalysis (e.g., 1979-2012), which is fundamentally based on constraining a model with a vast array of observational data.",
+        "A regional forecast system uses the 'ECCO2 reanalysis' for its initial conditions, directly leveraging the observationally-constrained state estimate.",
+        "Analyzes near-global along-track SSS data from the Aquarius/SAC-D satellite mission, a key observational constraint.",
+        "Discusses the need for independent in-situ measurements to verify SWOT satellite data, which is critical for data assimilation.",
+        "Gravity models are developed with comprehensive ground and space-borne data.",
+        "Analysis uses 19 days of field and satellite observations to constrain phytoplankton responses.",
+        "Used in conjunction with Gravity Recovery and Climate Experiment (GRACE) satellite data, leveraging its data assimilation capabilities to constrain water storage estimates.",
+        "Targeted Observing Periods featured the release of additional radiosonde balloons, more than doubling the routine sounding program to enhance predictability."
+      ],
+      "level_description": "Multi-source constraint (satellite + in-situ + airborne)"
+    },
+    "MCL-8": {
+      "score": 2.5,
+      "evidence_count": 73,
+      "vote_count": 69,
+      "top_evidence": [
+        "NOAA\u2019s Coastal Ocean Reanalysis (CORA), which is a 43-year reanalysis (1979\u20132021).",
+        "Produced monthly maps... covering a time period from 1998 to 2016.",
+        "The prescribed atmospheric forcings to drive the model are from the NCEP Climate Forecast System Reanalysis (CFSR).",
+        "Used to perform a retrospective analysis of Arctic sea ice export from 1979\u20132012.",
+        "Applied to assess long-term trends in streamflow and baseflow in the Sao Francisco River Basin during 1980\u20132015.",
+        "ECCO is used to provide boundary conditions for a regional study of a kelp forest, a typical application of reanalysis data.",
+        "The 'ECCO2 reanalysis' is explicitly used to provide a physically consistent initial state for a forecast model.",
+        "Used to enhance historical water level records for climate studies.",
+        "Analysis of climate trends over the past 30 years in the Southern Ocean.",
+        "Analysis of ice shelf fracture evolution from 2002 to 2022."
+      ],
+      "level_description": "Coupled, fully integrated, benchmarked reanalysis products"
+    },
+    "MCL-9": {
+      "score": 2.24,
+      "evidence_count": 26,
+      "vote_count": 26,
+      "top_evidence": [
+        "A comparison with gridded SOCAT v5 data revealed standard deviations of the residuals 0\u2009\u00b1\u200926\u2009\u03bcatm.",
+        "An ensemble-based Data Assimilation System for the Southern Ocean (DASSO) was developed.",
+        "A related modeling effort uses a 'super-large ensemble' of 110 members to represent initial-condition uncertainty.",
+        "Uses a probabilistic neural network to model the single particle transition probability density function (pdf) of ocean surface drifters.",
+        "This allowed us to increase the ensemble size from 12 to 30...",
+        "Ensemble Lagrangian simulations aim to capture the full range of possible outcomes for particle dispersal... generate the variability inherent in Lagrangian ensemble simulations.",
+        "Proposes a method for quantifying the errors in regional net CO2 flux estimates from models in an MIP.",
+        "Notes that over fifty published estimates of land ice trends provide a confusing and often inconsistent picture.",
+        "Used with large ensembles to find that internal variability generates a spread in the standard deviation and skewness of two El Ni\u00f1o types.",
+        "The study assesses the effect of influential parameters, such as the type of GRACE solution, on ice loss estimates, performing a sensitivity analysis."
+      ],
+      "level_description": "Experimental design for IC, parameters, and forcing for limited cases"
+    },
+    "MCL-10": {
+      "score": 2.09,
+      "evidence_count": 46,
+      "vote_count": 46,
+      "top_evidence": [
+        "Here, we validate the preliminary version (0.9) of NOAA\u2019s Coastal Ocean Reanalysis (CORA).",
+        "A comparison with gridded SOCAT v5 data revealed standard deviations of the residuals.",
+        "To validate the performance of DASSO, experiments were conducted from 15 April to 14 October 2016.",
+        "Using a global reanalysis like ECCO to force a regional model provides a validated set of boundary conditions for the regional study.",
+        "Model-simulated dispersal patterns show congruence with phylogeographic analyses, validating the model's transport pathways against biological data.",
+        "Focuses on the development of in-situ Calibration/Validation (Cal/Val) for SWOT using independent measurements to verify instrument performance.",
+        "Analysis of SSS variance spectra from satellites provides a benchmark for validating model physics.",
+        "A comparison study to quantify and compare spatial structures of Subtropical Mode Waters in the world ocean using a common criterion.",
+        "Likely used as an observational or reanalysis benchmark for modern climate conditions against which GCM simulations of past (LIG) and future Arctic sea-ice loss are compared.",
+        "A comprehensive evaluation of datasets, including model-derived EAM, was conducted to identify their characteristics."
+      ],
+      "level_description": "Routine validation against multiple datasets for limited cases"
+    },
+    "MCL-11": {
+      "score": 2.08,
+      "evidence_count": 12,
+      "vote_count": 12,
+      "top_evidence": [
+        "Using a multi linear regression we produced monthly maps of surface ocean fCO2.",
+        "Model outputs are used in a study employing machine learning (ML) techniques to backfill missing data in time series.",
+        "The paper is from the field of Machine Learning & Data Science, analyzing gravity models' impact on orbit prediction.",
+        "Model data on historical sea level variability is used to develop a reliable modeling system using supervised machine learning.",
+        "A probabilistic neural network is used with Lagrangian observations to model the transition probability density function of ocean surface drifters.",
+        "Quantifying variability in Lagrangian particle dispersal in ocean ensemble simulations: an informati[on theory approach]",
+        "Data from ocean models is used for machine learning applications, such as the joint classification of the vertical structure of ocean properties.",
+        "ECCO reanalysis data (e.g., sea surface height) serves as a key input for deep learning techniques used to identify and analyze ocean upwelling regions.",
+        "Proposes machine learning models based on long short-term memory network (LSTM) and extra trees to predict mesoscale eddy properties and trajectories.",
+        "Title explicitly states the use of 'Multi-Variate Machine Learning' for maximum magnitude assessment of earthquakes."
+      ],
+      "level_description": "ML extensively tested, transitioning to core model activities"
+    },
+    "MCL-12": {
+      "score": 2.16,
+      "evidence_count": 26,
+      "vote_count": 25,
+      "top_evidence": [
+        "Positive Impact of CryoSat-2 Ice Thickness Initiation.",
+        "Assimilates sea-ice thickness (SIT) together with sea-ice concentration (SIC) derived from satellites.",
+        "Used in a study that links glacier mass balance to atmospheric forcings using GRACE/GRACE-FO satellite data, demonstrating use in analyzing satellite mission observations.",
+        "Model application is combined with an analysis of satellite remote sensing data to study ice shelf dynamics.",
+        "Directly addresses the development of in-situ Calibration/Validation for the 'future Surface Water and Ocean Topography (SWOT) mission'.",
+        "Utilizes data from the Aquarius/SAC-D satellite mission, demonstrating integration with major observational platforms.",
+        "Analysis of gravity models' impact on LEO satellite orbit prediction, relevant for mega LEO constellations.",
+        "Model-derived effective angular momentum (EAM) data is integrated into a Kalman filter to derive a UT1/LOD sequence for geodetic applications.",
+        "Describes Targeted Observing Periods (TOPs) during the Year of Polar Prediction to enhance atmospheric predictability, a form of observing system experiment.",
+        "data assimilation scheme now additionally utilizes sea\u2010surface salinity and sea\u2010level anomaly..."
+      ],
+      "level_description": "Forward models integrated for limited mission sets"
+    },
+    "MCL-13": {
+      "score": 2.0,
+      "evidence_count": 15,
+      "vote_count": 15,
+      "top_evidence": [
+        "The model uses the coupled ADCIRC+SWAN coastal circulation and wave model.",
+        "The Los Alamos sea ice model (CICE) is being tested in standalone mode.",
+        "The model configuration is specified as 'MITgcm-ECCO2'. MITgcm is a widely used, open-source community general circulation model.",
+        "ECCO2 reanalysis data is used to initialize a different community model (CROCO), demonstrating its data can be integrated into other systems.",
+        "Describes a large ensemble dataset from a Chinese modeling center, contributing to the worldwide collection of single-model large ensembles.",
+        "Cited and used across diverse research areas including oceanography, atmospheric science, hydrology, and paleoclimatology, indicating broad community use and accessibility.",
+        "Contributes to the Decadal Climate Prediction Project (DCPP) as part of the Coupled Model Intercomparison Project (CMIP6).",
+        "this study examines similar events in a 2,200\u2010yr simulation of Community Earth System Model, version 1.",
+        "Work is conducted within the context of Inverse model intercomparison projects (MIPs), which assess uncertainties from various sources across models.",
+        "Cited across diverse fields (cryosphere, climate science, remote sensing) for varied applications, indicating broad community adoption and interoperability."
+      ],
+      "level_description": "Available to institution + external partners, not fully open"
+    },
+    "MCL-14": {
+      "score": 1.95,
+      "evidence_count": 26,
+      "vote_count": 24,
+      "top_evidence": [
+        "Coastal water level information is crucial for understanding flood occurrences and changing risks.",
+        "The Los Alamos sea ice model (CICE) is being tested in standalone mode for its suitability for seasonal time scale prediction.",
+        "Applied to investigate drivers of decreased streamflow and water scarcity in the Sao Francisco River Basin, a key challenge for regional development and multiple sectors.",
+        "ECCO2 reanalysis is used to initialize a real-time sea level forecast system, linking it to an operational decision support tool.",
+        "Model data is described as essential for climate and coastal hazard studies, informing risk assessment.",
+        "Model of sea surface currents used to understand genetic population structure, which can inform conservation planning.",
+        "Supports applications like LEO navigation which requires real-time precise orbit prediction.",
+        "Understanding historical sea level is essential for informed planning and mitigation strategies aimed at protecting coastal communities.",
+        "Used to derive a UT1/LOD sequence with higher accuracy, an operational need for geodesy and navigation.",
+        "Sea\u2010Ice Forecasts With an Upgraded AWI Coupled Prediction System"
+      ],
+      "level_description": "Broadly tested for limited applications"
+    }
+  },
+  "aggregated_evidence": {
+    "MCL-1": {
+      "evidence_count": 62,
+      "vote_count": 62
+    },
+    "MCL-2": {
+      "evidence_count": 48,
+      "vote_count": 46
+    },
+    "MCL-3": {
+      "evidence_count": 37,
+      "vote_count": 37
+    },
+    "MCL-4": {
+      "evidence_count": 51,
+      "vote_count": 48
+    },
+    "MCL-5": {
+      "evidence_count": 20,
+      "vote_count": 19
+    },
+    "MCL-6": {
+      "evidence_count": 8,
+      "vote_count": 8
+    },
+    "MCL-7": {
+      "evidence_count": 58,
+      "vote_count": 56
+    },
+    "MCL-8": {
+      "evidence_count": 73,
+      "vote_count": 69
+    },
+    "MCL-9": {
+      "evidence_count": 26,
+      "vote_count": 26
+    },
+    "MCL-10": {
+      "evidence_count": 46,
+      "vote_count": 46
+    },
+    "MCL-11": {
+      "evidence_count": 12,
+      "vote_count": 12
+    },
+    "MCL-12": {
+      "evidence_count": 26,
+      "vote_count": 25
+    },
+    "MCL-13": {
+      "evidence_count": 15,
+      "vote_count": 15
+    },
+    "MCL-14": {
+      "evidence_count": 26,
+      "vote_count": 24
+    }
+  }
+}
