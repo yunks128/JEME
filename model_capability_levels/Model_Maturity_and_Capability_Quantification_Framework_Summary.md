@@ -50,32 +50,48 @@ All evaluations must be supported by:
 ### MCL-2: Spatial Resolution
 **Assessment Metric**: Ability to resolve relevant scales for Earth system components
 
-**Quantitative Measurement Rules**:
-- **Level 0**: Single set of scales (e.g., coarse-resolution only)
-- **Level 1**: Broader set of spatial scales represented
-- **Level 2**: Nearly full set of spatial scales covered
-- **Level 3**: All relevant scales fully resolved for intended applications
+**Scale Categories (for reference)**:
+- **Coarse**: >1 degree (~100km+) - Climate-scale processes
+- **Eddy-permitting**: 1/4 to 1 degree (~25-100km) - Large eddies partially resolved
+- **Eddy-resolving**: 1/10 to 1/4 degree (~10-25km) - Mesoscale eddies resolved
+- **Submesoscale-permitting**: 1/48 to 1/10 degree (~2-10km) - Fronts, filaments
+- **Submesoscale-resolving**: <1/48 degree (<2km) - Full submesoscale dynamics
+
+**Categorical Assessment**:
+- **Low**: Coarse resolution only (>50km), single fixed grid
+- **Moderate**: Eddy-permitting to eddy-resolving capability (10-100km)
+- **High**: Submesoscale-permitting capability (2-10km) demonstrated
+- **Very High**: Global submesoscale-resolving capability (<2km, O(100m) demonstrated)
 
 **Practical Implementation**:
 - Document minimum/maximum spatial resolution capabilities
 - Assess grid flexibility (structured vs. unstructured)
 - Evaluate adaptive mesh refinement capabilities
 - Compare resolution to observational data scales
+- Note: Being one of few codes capable of global O(100m) resolution = Very High
 
 ### MCL-3: Temporal Resolution
 **Assessment Metric**: Frequency of outputs relevant to prediction and policy needs
 
-**Quantitative Measurement Rules**:
-- **Level 0**: Single set of limited time scales only
-- **Level 1**: Broader set of time scales represented
-- **Level 2**: Nearly full set of time scales covered
-- **Level 3**: Full spectrum of time scales for intended applications
+**Scale Categories (for reference)**:
+- **Sub-daily**: Hourly or higher frequency output (tides, diurnal cycles)
+- **Daily to weekly**: Synoptic variability, weather-scale processes
+- **Monthly to seasonal**: Seasonal cycles, monsoons
+- **Interannual to decadal**: ENSO, PDO, climate variability
+- **Multi-decadal to centennial**: Climate change, long-term trends
+
+**Categorical Assessment**:
+- **Low**: Single time scale only (e.g., monthly means only)
+- **Moderate**: 2-3 time scales (e.g., daily to seasonal)
+- **High**: Broad range (sub-daily to decadal)
+- **Very High**: Full spectrum from sub-daily to multi-decadal with consistent physics
 
 **Practical Implementation**:
 - Document temporal resolution range (seconds to centuries)
 - Assess time-stepping flexibility
 - Evaluate sub-grid temporal variability representation
 - Measure computational efficiency across time scales
+- Note: Multi-decadal reanalysis with hourly output capability = Very High
 
 ### MCL-4: Process Coupling Sophistication
 **Assessment Metric**: Process coupling complexity and fidelity
@@ -95,32 +111,46 @@ All evaluations must be supported by:
 ### MCL-5: Predictive Skill
 **Assessment Metric**: Ability to simulate and predict observed variability
 
-**Quantitative Measurement Rules**:
-- **Level 0**: Not used for prediction purposes
-- **Level 1**: Limited use in prediction applications
-- **Level 2**: Routine use for prediction in limited settings
-- **Level 3**: Demonstrated skill in comprehensive long-term assessments
+**Applicability Note**: This metric may be **N/A (Not Applicable)** for:
+- Reanalysis / state estimation systems (retrospective only)
+- Nature run simulations
+- Historical reconstructions
+For such systems, consider assessing "Reconstruction Skill" or mark as N/A.
+
+**Categorical Assessment**:
+- **N/A**: System is retrospective analysis, not designed for prediction
+- **Low**: Limited prediction use, no formal skill assessment
+- **Moderate**: Routine use for prediction in limited settings
+- **High**: Demonstrated skill in multiple prediction contexts
+- **Very High**: Operational prediction with comprehensive skill metrics
 
 **Practical Implementation**:
 - Calculate skill scores (RMSE, correlation, bias) against observations
 - Assess forecast lead time capabilities
 - Evaluate ensemble spread-skill relationships
 - Document operational prediction system usage
+- For reanalysis systems: assess reconstruction accuracy instead, or mark N/A
 
 ### MCL-6: Computational Performance
 **Assessment Metric**: Scalability on HPC, cloud, or exascale architectures
 
-**Quantitative Measurement Rules**:
-- **Level 0**: Not scalable, limited to small systems
-- **Level 1**: Scalable within one architecture (e.g., HPC only)
-- **Level 2**: Scalable across multiple architectures (e.g., HPC + GPU, but not cloud)
-- **Level 3**: Exascale-ready with full portability
+**Categorical Assessment**:
+- **Low**: Desktop/workstation only, limited parallelism (<100 cores)
+- **Moderate**: HPC scalable (MPI), demonstrated at 1000s of cores
+- **High**: Multi-architecture (HPC + GPU acceleration), 10K+ cores
+- **Very High**: Exascale-ready, demonstrated at 100K+ cores, OR one of few codes capable of global O(100m) ocean resolution
+
+**Reference Points for Ocean Models**:
+- Only ~3-4 ocean model codes worldwide can run globally at O(100m) resolution
+- Such capability requires exceptional computational efficiency = Very High
+- MITgcm (used by ECCO) is in this elite category
 
 **Practical Implementation**:
 - Measure parallel scaling efficiency (weak/strong scaling)
 - Document maximum core counts successfully utilized
 - Assess memory usage and I/O performance
 - Evaluate containerization and cloud deployment capability
+- Note: Capability to run global O(100m) simulations = Very High regardless of other factors
 
 ### MCL-7: Observational Constraint
 **Assessment Metric**: Degree of direct observational constraint on model state/parameters
@@ -215,17 +245,23 @@ All evaluations must be supported by:
 ### MCL-13: Interoperability & Open Science Readiness
 **Assessment Metric**: Community accessibility and compatibility with adjacent tools
 
-**Quantitative Measurement Rules**:
-- **Level 0**: Proprietary, core developers only
-- **Level 1**: Available within institution, closed to external users
-- **Level 2**: Available to institution + external partners, not fully open
-- **Level 3**: Fully open source with standardized interfaces
+**Categorical Assessment**:
+- **Low**: Proprietary, core developers only
+- **Moderate**: Available within institution + external partners, not fully open
+- **High**: Open source with community adoption
+- **Very High**: 100% open source, CF/ACDD compliant (or equivalent standards), active community
+
+**Standards Reference**:
+- **CF (Climate and Forecast) Conventions**: Metadata standards for climate data
+- **ACDD (Attribute Convention for Data Discovery)**: Discovery metadata
+- **NASA ESDS mandate**: Requires CF/ACDD compliance for official releases
 
 **Practical Implementation**:
 - Assess code repository accessibility and documentation
 - Evaluate software licensing and distribution methods
 - Document API standardization and interface compatibility
 - Measure community adoption and contribution metrics
+- Note: 100% open source with mandated standards compliance = Very High
 
 ### MCL-14: Stakeholder & Decision Support Adoption
 **Assessment Metric**: Use in real-world decision-making processes

@@ -1,0 +1,206 @@
+{
+  "model_name": "ECCO",
+  "assessment_date": "2026-01-05T19:08:10.431276",
+  "version": "2.0",
+  "scoring_type": "categorical",
+  "total_papers": 31801,
+  "sample_size": 100,
+  "batches_successful": 20,
+  "batches_total": 20,
+  "expert_overrides_applied": true,
+  "scores": {
+    "MCL-1": {
+      "category": "HIGH",
+      "category_label": "High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "Full primitive equation ocean dynamics",
+        "KPP vertical mixing scheme",
+        "Sea ice thermodynamics and dynamics",
+        "Nonlinear free surface",
+        "Partial cell bottom topography for accurate bathymetry"
+      ],
+      "level_description": "Comprehensive process representation with validated interactions",
+      "expert_override": true,
+      "override_reason": "A stable, global multi-decadal ocean model requires sophisticated representation of salient ocean physical processes. MITgcm includes comprehensive ocean physics, KPP mixing, sea ice thermodynamics/dynamics, and optional biogeochemistry."
+    },
+    "MCL-2": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "ECCO Version 4: 1 degree global configuration",
+        "LLC4320: 1/48 degree global ocean with tides (~2km)",
+        "Regional configurations down to O(100m) resolution",
+        "Lat-Lon-Cap grid enables efficient global coverage",
+        "One of ~3-4 codes capable of global O(100m) resolution"
+      ],
+      "level_description": "Global submesoscale-resolving capability (<2km)",
+      "expert_override": true,
+      "override_reason": "ECCO/MITgcm operates across a wide range of spatial scales. The LLC4320 simulation demonstrates global submesoscale-resolving capability at 1/48 degree (~2km). ECCO products range from 1 degree to O(100m) resolution."
+    },
+    "MCL-3": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "Hourly output from LLC4320 (tides, diurnal cycles)",
+        "Daily to monthly mean products",
+        "Multi-decadal continuous reanalysis (1992-present)",
+        "Consistent physics across all time scales",
+        "Sub-daily to decadal variability captured"
+      ],
+      "level_description": "Full spectrum with consistent physics across all scales",
+      "expert_override": true,
+      "override_reason": "ECCO products span hourly output to multi-decadal reanalysis (1992-present, 30+ years). The LLC4320 produces hourly output capturing tidal and sub-daily variability."
+    },
+    "MCL-4": {
+      "category": "HIGH",
+      "category_label": "High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "Ocean circulation (MITgcm core)",
+        "Sea ice model with thermodynamic and dynamic components",
+        "Ocean biogeochemistry (Darwin ecosystem model integration)",
+        "Thermodynamic ice sheet coupling for ice shelf/ocean interaction"
+      ],
+      "level_description": "3-4 components with validated coupling",
+      "expert_override": true,
+      "override_reason": "ECCO has 4 coupled components: ocean circulation, sea ice (thermodynamic+dynamic), biogeochemistry, and thermodynamic ice sheets. This is clearly HIGH (3-4 components). VERY_HIGH would require 5+ components or full ESM coupling."
+    },
+    "MCL-5": {
+      "category": "NOT_APPLICABLE",
+      "category_label": "N/A",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "ECCO produces retrospective ocean state estimates constrained by observations",
+        "High-resolution 'nature runs' are simulations, not forecasts",
+        "System is designed for historical reconstruction, not prediction"
+      ],
+      "level_description": "System is retrospective analysis, not designed for prediction",
+      "expert_override": true,
+      "override_reason": "ECCO is a retrospective state estimation / reanalysis system and high-resolution nature run facility. It is NOT a prediction system. Predictive skill is not applicable."
+    },
+    "MCL-6": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "MITgcm is one of few codes capable of global O(100m) ocean resolution",
+        "Demonstrated scaling to hundreds of thousands of cores",
+        "LLC4320 simulation: 1/48 degree global ocean with tides",
+        "Adjoint model capability for large-scale optimization"
+      ],
+      "level_description": "Exascale-ready, demonstrated at 100K+ cores",
+      "expert_override": true,
+      "override_reason": "MITgcm (ECCO's underlying model) is one of only ~3-4 ocean model codes worldwide capable of running globally at O(100m) resolution. This represents world-class computational performance."
+    },
+    "MCL-7": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "Satellite altimetry (Jason, Sentinel, etc.)",
+        "Sea surface temperature (multiple sources)",
+        "Sea surface salinity (Aquarius, SMOS, SMAP)",
+        "GRACE/GRACE-FO ocean bottom pressure",
+        "Argo float profiles (~2 million profiles)",
+        "Historical XBT, CTD, mooring data",
+        "Sea ice concentration and thickness"
+      ],
+      "level_description": "Comprehensive multi-source constraint (~10^9 observations)",
+      "expert_override": true,
+      "override_reason": "ECCO's core mission is multi-source observational constraint. The system assimilates satellite altimetry, SST, SSS, GRACE gravity, Argo profiles, XBTs, CTDs, moorings, and more - approximately 10^9 observations."
+    },
+    "MCL-8": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "ECCO Version 4 Release 4: 1992-2017 global ocean state estimate",
+        "ECCO Version 5: Extended and updated reanalysis",
+        "4D-Var adjoint method for optimal state estimation",
+        "Fully dynamically consistent solutions (no nudging artifacts)",
+        "Benchmarked against MERRA-2, ERA5, and other reanalyses"
+      ],
+      "level_description": "Coupled, benchmarked reanalysis products (30+ years)",
+      "expert_override": true,
+      "override_reason": "Retrospective ocean state estimation IS ECCO's core mission. ECCO produces coupled, fully integrated, benchmarked reanalysis products spanning 1992-present (30+ years) using 4D-Var adjoint method."
+    },
+    "MCL-9": {
+      "category": "NOT_APPLICABLE",
+      "category_label": "N/A",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [],
+      "level_description": "",
+      "expert_override": false
+    },
+    "MCL-10": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "Continuous validation against ~10^9 observations in state estimation",
+        "Formal cost function minimization quantifies model-data misfit",
+        "Participation in ocean model intercomparison projects (OMIP)",
+        "Systematic comparison with independent datasets not in assimilation"
+      ],
+      "level_description": "Continuous systematic validation (~10^9 observations)",
+      "expert_override": true,
+      "override_reason": "ECCO involves continuous V&V against approximately 10^9 observations through its data assimilation framework. The optimization process IS verification/validation."
+    },
+    "MCL-11": {
+      "category": "NOT_APPLICABLE",
+      "category_label": "N/A",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [],
+      "level_description": "",
+      "expert_override": false
+    },
+    "MCL-12": {
+      "category": "NOT_APPLICABLE",
+      "category_label": "N/A",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [],
+      "level_description": "",
+      "expert_override": false
+    },
+    "MCL-13": {
+      "category": "VERY_HIGH",
+      "category_label": "Very High",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [
+        "MITgcm is fully open source (MIT license) on GitHub",
+        "ECCO forcing fields publicly available",
+        "Analysis routines (ecco_v4_py) open source",
+        "Official releases CF/ACDD compliant per NASA ESDS mandate",
+        "Active user community and documentation"
+      ],
+      "level_description": "Fully open source, CF/ACDD compliant, active community",
+      "expert_override": true,
+      "override_reason": "ECCO model codes (MITgcm), forcing fields, and analysis routines are 100% open source. All official ECCO releases adhere to CF and ACDD conventions for interoperability, as mandated by NASA ESDS."
+    },
+    "MCL-14": {
+      "category": "NOT_APPLICABLE",
+      "category_label": "N/A",
+      "evidence_count": 0,
+      "vote_count": 0,
+      "top_evidence": [],
+      "level_description": "",
+      "expert_override": false
+    }
+  }
+}
