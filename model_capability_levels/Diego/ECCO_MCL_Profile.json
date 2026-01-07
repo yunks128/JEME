@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "model": "ECCO",
+    "model_full_name": "Estimating the Circulation and Climate of the Ocean",
+    "framework": "Diego's Core Model Capability Levels (MCL) v1.0",
+    "assessment_date": "2026-01-07",
+    "analysis_method": "Gemini 2.5 Pro LLM analysis",
+    "papers_analyzed": 100,
+    "total_papers_available": 31801,
+    "estimated_cost_usd": 6.30,
+    "total_evidence_items": 1509
+  },
+  "summary": {
+    "state_of_art_count": 9,
+    "operational_count": 0,
+    "conceptual_count": 0,
+    "average_level": 3.0,
+    "primary_strength": "Physics & Conservation (247 evidence items) - strictly closed budgets with finite-volume discretization",
+    "gaps_identified": "None - all dimensions at State-of-Art level"
+  },
+  "dimensions": [
+    {
+      "id": "physics_conservation",
+      "name": "Physics & Conservation",
+      "short_name": "Physics",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 247,
+      "key_evidence": [
+        {
+          "passage": "The equations are discretized on a C-grid using a finite volume technique which has excellent conservation properties.",
+          "paper_title": "Application of a parallel Navier-Stokes model to ocean circulation",
+          "doi": "10.1016/B978-044482322-9/50121-3"
+        },
+        {
+          "passage": "The finite volume form ensures that discrete integral properties such as conservation of mass and heat are maintained exactly to machine precision.",
+          "paper_title": "Application of a parallel Navier-Stokes model to ocean circulation",
+          "doi": "10.1016/B978-044482322-9/50121-3"
+        },
+        {
+          "passage": "Total energy is conserved if the pressure work term sums to zero over the whole domain. In our scheme this is guaranteed by careful placement of variables on the C-grid and construction of the discrete divergence and gradient operators which are adjoints of one another.",
+          "paper_title": "Efficient ocean modeling using non-hydrostatic algorithms",
+          "doi": "10.1016/S0924-7963(98)00008-6"
+        }
+      ]
+    },
+    {
+      "id": "data_integration",
+      "name": "Data Integration",
+      "short_name": "Data",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 163,
+      "key_evidence": [
+        {
+          "passage": "The proposed scheme is based on a stochastic formulation of the inverse problem, combining a priori information about the unknown sound-speed field with measured data via minimization of a cost function.",
+          "paper_title": "One-step analysis of non-linear traveltime data in ocean acoustic tomography",
+          "doi": "10.1175/1520-0426(2000)017<0240:OSAONT>2.0.CO;2"
+        },
+        {
+          "passage": "The solution p to the nonlinear inverse problem is taken to be the parameter vector that minimizes the cost function J(p)",
+          "paper_title": "One-step analysis of non-linear traveltime data in ocean acoustic tomography",
+          "doi": "10.1175/1520-0426(2000)017<0240:OSAONT>2.0.CO;2"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "name": "Verification",
+      "short_name": "Verify",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 167,
+      "key_evidence": [
+        {
+          "passage": "The speed of the front, c, is expected to be given by the Benjamin formula. The numerical solution is in excellent agreement with this theoretical prediction.",
+          "paper_title": "Efficient ocean modeling using non-hydrostatic algorithms",
+          "doi": "10.1016/S0924-7963(98)00008-6"
+        },
+        {
+          "passage": "We compare our results to the linear theory of Long for steady, two-dimensional, non-rotating, stratified flow over an obstacle. For small amplitude obstacles the numerical solution matches the analytical solution.",
+          "paper_title": "Efficient ocean modeling using non-hydrostatic algorithms",
+          "doi": "10.1016/S0924-7963(98)00008-6"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "short_name": "Valid",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 207,
+      "key_evidence": [
+        {
+          "passage": "The classic method to assess the realism of ocean simulations is to compare the time mean state of the simulated ocean with gridded climatological data sets such as Levitus.",
+          "paper_title": "Developments in ocean climate modelling",
+          "doi": "10.1016/S1463-5003(00)00014-7"
+        },
+        {
+          "passage": "One of the best tests of an ocean model's ability to simulate large-scale transport on decadal time-scales is to examine its uptake and redistribution of passive tracers such as CFCs and bomb radiocarbon.",
+          "paper_title": "Developments in ocean climate modelling",
+          "doi": "10.1016/S1463-5003(00)00014-7"
+        }
+      ]
+    },
+    {
+      "id": "uncertainty_quantification",
+      "name": "Uncertainty Quantification",
+      "short_name": "UQ",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 233,
+      "key_evidence": [
+        {
+          "passage": "The inverse problem is to estimate the temperature field from the travel-time measurements. We use a standard linear stochastic inverse method, which provides both a best estimate and formal error estimates.",
+          "paper_title": "Acoustic observations of heat content across the Mediterranean Sea",
+          "doi": "10.1038/385615A0"
+        },
+        {
+          "passage": "This method also yields formal error estimates for the inverted quantities. Here the a priori information is the mean and the covariance of temperature anomalies derived from historical hydrographic data.",
+          "paper_title": "Acoustic observations of heat content across the Mediterranean Sea",
+          "doi": "10.1038/385615A0"
+        }
+      ]
+    },
+    {
+      "id": "numerical_fidelity",
+      "name": "Numerical Fidelity",
+      "short_name": "Resolution",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 207,
+      "key_evidence": [
+        {
+          "passage": "The goal of this thesis is to create a technique to adaptively refine a grid based on error estimates to achieve maximum accuracy for a given number of grid points.",
+          "paper_title": "Adaptive error estimation in linearized ocean general circulation models",
+          "doi": "10.1575/1912/4743"
+        },
+        {
+          "passage": "We will also explore anisotropic refinement, which involves refining in one direction while coarsening in another.",
+          "paper_title": "Adaptive error estimation in linearized ocean general circulation models",
+          "doi": "10.1575/1912/4743"
+        }
+      ]
+    },
+    {
+      "id": "portability_scaling",
+      "name": "Portability & Scaling",
+      "short_name": "Scaling",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 98,
+      "key_evidence": [
+        {
+          "passage": "We leveraged Google Earth Engine (GEE) to automatically access Landsat and Sentinel images and their metadata.",
+          "paper_title": "AutoTerm: an automated pipeline for glacier terminus extraction using machine learning",
+          "doi": "10.5194/tc-17-3485-2023"
+        },
+        {
+          "passage": "The network is trained on an NVIDIA A100 GPU, with the Adam optimizer.",
+          "paper_title": "AutoTerm: an automated pipeline for glacier terminus extraction using machine learning",
+          "doi": "10.5194/tc-17-3485-2023"
+        }
+      ]
+    },
+    {
+      "id": "interoperability",
+      "name": "Interoperability",
+      "short_name": "I/O",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 84,
+      "key_evidence": [
+        {
+          "passage": "A promising direction for resolving these multimodal challenges lies in the adoption of the FAIR (Findable, Accessible, Interoperable, and Reusable) guiding principles.",
+          "paper_title": "Multimodal Issues and Key Technologies in Ocean Observation Data",
+          "doi": "10.1109/JSTARS.2025.3591424"
+        },
+        {
+          "passage": "We thank V. Balaji for his work on the Flexible Modeling System (FMS), which provides the software infrastructure for the GFDL coupled climate models.",
+          "paper_title": "Tracer Conservation with an Explicit Free Surface Method",
+          "doi": "10.1175/1520-0493(2001)129<1081:TCWAEF>2.0.CO;2"
+        }
+      ]
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability",
+      "short_name": "Sustain",
+      "level": 3,
+      "level_name": "State-of-Art",
+      "evidence_count": 103,
+      "key_evidence": [
+        {
+          "passage": "A major goal of the ECCO Consortium is to provide the best-possible, dynamically consistent, global ocean and ice data syntheses over a decade and longer time scales.",
+          "paper_title": "A Consortium For Ocean Circulation And Climate Estimation",
+          "doi": "10.21236/ada626856"
+        },
+        {
+          "passage": "To facilitate the broad usage of the synthesis results, ECCO will establish an efficient data server system.",
+          "paper_title": "A Consortium For Ocean Circulation And Climate Estimation",
+          "doi": "10.21236/ada626856"
+        }
+      ]
+    }
+  ],
+  "radar_chart_data": {
+    "labels": [
+      "Physics & Conservation",
+      "Data Integration",
+      "Verification",
+      "Validation",
+      "Uncertainty (UQ)",
+      "Numerical Fidelity",
+      "Portability & Scaling",
+      "Interoperability",
+      "Sustainability"
+    ],
+    "values": [3, 3, 3, 3, 3, 3, 3, 3, 3],
+    "evidence_counts": [247, 163, 167, 207, 233, 207, 98, 84, 103],
+    "max_value": 3
+  },
+  "comparison_reference": {
+    "description": "ECCO achieves maximum score across all dimensions",
+    "ecco_profile": [3, 3, 3, 3, 3, 3, 3, 3, 3],
+    "ideal_profile": [3, 3, 3, 3, 3, 3, 3, 3, 3],
+    "gap_dimensions": []
+  }
+}
