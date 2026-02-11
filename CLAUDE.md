@@ -4,106 +4,95 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Commands
 
-- `npm start` - Start development server
+- `npm start` - Start development server (binds to `0.0.0.0:3000`)
 - `npm run build` - Build for production
-- `npm test` - Run tests
-- `npm run deploy` - Deploy to GitHub Pages
+- `npm test` - Run tests (React Testing Library / Jest)
+- `npm run deploy` - Build and deploy to GitHub Pages
+- `node scripts/clean_citation_data.js --all --dry-run` - Preview citation data cleanup across all models
+- `node scripts/clean_citation_data.js --model ECCO` - Clean a specific model's data
 
 ## Architecture Overview
 
-This is a React-based dashboard for visualizing citation metrics across multiple scientific models. The codebase is designed with a modular, multi-model architecture that supports both model-specific and generic implementations.
+React-based dashboard (CRA) for visualizing citation metrics across 8 scientific models. Uses a modular, multi-model architecture with both generic and model-specific implementations.
 
-### Key Architectural Components
+**Supported Models:** RAPID, CARDAMOM, CMS-Flux, ECCO, ISSM, MOMO-CHEM, LES, EDMF
 
-**Model Configuration System (`src/config/modelConfig.js`)**
-- Centralized configuration for all supported models (RAPID, CARDAMOM, CMS-Flux, ECCO, ISSM, MOMO-CHEM)
-- Each model has display name, description, data path, color theme, domain, and links
-- Use `getModelConfig(modelName)` to retrieve model-specific settings
-- Use `getModelList()` to get array of all model names
+### Model Configuration (`src/config/modelConfig.js`)
 
-**Routing Architecture (`src/AppWithRouting.js`)**
-- Main dashboard route: `/science-model-dashboard`
-- Model-specific routes: `/science-model-dashboard/{modelName}`
-- Generic sub-pages: `/science-model-dashboard/{modelName}/citations`, `/geographic-impact`, `/research-domains`
-- Legacy routes maintained for backward compatibility (RAPID uses legacy pages directly)
-- All unmatched paths redirect to main dashboard
+Centralized config for all models. Each entry has: name, displayName, description, dataPath, color, domain, github, website, fullDescription.
+- `getModelConfig(modelName)` - Retrieve model-specific settings
+- `getModelList()` - Get array of all model names
 
-**Generic vs Model-Specific Components**
-- Generic components (e.g., `GenericDashboard.js`, `GenericCitationsPage.js`) work with any model using the model configuration
-- Model-specific components exist in `src/views/{MODEL_NAME}/` directories
-- Generic components receive `modelName` prop from route params and load corresponding data file
-- Generic components use `citationsData` prop containing the loaded JSON data
+### Routing (`src/AppWithRouting.js`)
 
-**Data Processing (`src/utils/dataUtils.js`)**
-- `extractPublicationData(entry)` - Standardizes publication data from different JSON formats. Handles nested Crossref JSON structure with fields like `title[0]`, `author[]`, `published-print['date-parts']`, etc.
-- `calculateMetrics(citationsData)` - Computes overview metrics (total papers, citations, growth rate, domains)
-- `processGeographicData(citationsData)` - Extracts geographic information from abstracts/titles using keyword matching
-- `processCitationTrends(citationsData)` - Analyzes citation patterns over time with cumulative calculations
-- `processResearchDomains(citationsData)` - Groups publications by research domain with statistics
+- `/science-model-dashboard` - Main multi-model dashboard
+- `/science-model-dashboard/{modelName}` - Model-specific dashboard
+- `/science-model-dashboard/{modelName}/citations` - Citations page
+- `/science-model-dashboard/{modelName}/geographic-impact` - Geographic impact
+- `/science-model-dashboard/{modelName}/research-domains` - Research domains
+- `/science-model-dashboard/how-it-works` - Methodology page
+- Some models (CMS-Flux, ECCO, ISSM, CARDAMOM, MOMO-CHEM) have model-specific research-domains routes
+- Legacy routes maintained for backward compatibility
 
-**Data Structure**
-- Citation data stored as JSON files in `src/data/` with format `{MODEL_NAME}_analyzed.json`
-- JSON structure follows Crossref API format with nested objects
-- Key fields: `title[]`, `author[]`, `published-print['date-parts']`, `is-referenced-by-count`, `DOI`, `abstract`, `container-title[]`, `publisher`
-- Custom fields added during processing: `research_domain`, `models[]`
-- Geographic data inferred from text analysis of abstracts and titles
+### Generic vs Model-Specific Components
 
-### Component Structure
+- Generic components (`GenericDashboard.js`, `GenericCitationsPage.js`, etc.) work with any model via `modelName` route param
+- Model-specific overrides live in `src/views/{MODEL_NAME}/` directories
+- Generic components dynamically import `src/data/{MODEL_NAME}_analyzed.json`
 
-**Charts (`src/components/charts/`)**
-- All chart components built with Recharts library
-- Some charts have model-specific variants in `src/components/charts/{MODEL_NAME}/`
-- Reusable across different models
-- Handle data transformation internally
+### Data Processing (`src/utils/dataUtils.js`)
 
-**Views (`src/views/`)**
-- `Dashboard.js` - Main multi-model overview
-- `Generic*.js` - Template pages that work with any model (GenericDashboard, GenericCitationsPage, GenericGeographicImpactPage, GenericResearchDomainsPage)
-- `{MODEL_NAME}/` - Model-specific implementations when needed (e.g., CARDAMOM, CMS-Flux, ECCO, ISSM, MOMO-CHEM, RAPID)
+- `extractPublicationData(entry)` - Normalizes both Crossref format (nested `title[]`, `author[]`, `published-print['date-parts']`) and simplified scraper format (flat `title`, `authors`, `year`)
+- `calculateMetrics(citationsData)` - Total papers, citations, growth rate, domains
+- `processGeographicData(citationsData)` - Geographic extraction from abstract/title keywords
+- `processCitationTrends(citationsData)` - Yearly trends with cumulative calculations
+- `processResearchDomains(citationsData)` - Group by research domain
+- `processMissionData(citationsData)` - Satellite mission/instrument statistics
+- `extractMissions(entry)` - Extract mission data from `missions_instruments` field
+- `getAgencyColor(agency)` / `getMissionTypeIcon(type)` - Agency/mission display helpers
 
-**Utilities (`src/utils/`)**
-- `dataUtils.js` - Core data processing functions
-- `colors.js` - Color palette definitions
-- `chartUtils.js` - Chart-specific utilities
-- `themeConfig.js` - Theme configuration
+### Network Analysis (`src/utils/networkAnalysis.js`)
 
-**Components (`src/components/`)**
-- `DataLoader.js` - Wrapper for loading states, error handling, and empty states
-- `Header.js` - Main navigation header
-- `MetricCard.js` - Reusable metric display cards
-- `FilterPanel.js` - Data filtering controls
-- `ErrorBoundary.js` - React error boundary for graceful error handling
-- Model-specific component variants in `src/components/{MODEL_NAME}/`
+Cross-model connectivity analysis shown on the main dashboard:
+- `performNetworkAnalysis()` - Orchestrates full analysis: loads all model data, finds bridge papers (shared across models), calculates connection matrix, analyzes cross-model authors and domain overlap
+- Components in `src/components/network/`: NetworkGraph, ConnectionMatrix, BridgePapersTable, NetworkInsightsCard
+
+### Data Structure
+
+Citation data stored as JSON in `src/data/{MODEL_NAME}_analyzed.json`. Two formats coexist:
+- **Crossref format:** `title[]`, `author[]`, `published-print['date-parts']`, `is-referenced-by-count`, `DOI`, `abstract`, `container-title[]`
+- **Simplified format:** `title` (string), `authors` (string array), `year`, `doi`, `citation_count`, `venue`, `paper_id`, `research_domain`, `engagement_level`, `missions_instruments[]`, `citing_team_paper`
+
+Always use `extractPublicationData()` to normalize before processing.
+
+### Data Cleaning (`scripts/clean_citation_data.js`)
+
+Removes spam and metadata noise from citation JSON files. Three filter categories:
+1. "Review of:" spam entries (auto-generated nano-electronics papers)
+2. Placeholder/corrupted entries ("Insight Review Articles", "Digital Commons", etc.)
+3. Supplementary material/metadata (interactive comments, printer-friendly versions)
+
+Supports `--model NAME`, `--all`, and `--dry-run` flags. Idempotent.
 
 ## Development Patterns
 
-**Adding New Models**
-1. Add model configuration to `src/config/modelConfig.js` in the MODELS object with all required fields (name, displayName, description, dataPath, color, domain, github, website, fullDescription)
-2. Add corresponding route in MODEL_ROUTES object
-3. Add JSON data file to `src/data/` with naming format `{MODEL_NAME}_analyzed.json`
-4. Add route in `src/AppWithRouting.js` for the model-specific dashboard
-5. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/` if custom behavior is needed
+**Adding New Models:**
+1. Add config to `src/config/modelConfig.js` MODELS object
+2. Add route in MODEL_ROUTES and in `src/AppWithRouting.js`
+3. Add `src/data/{MODEL_NAME}_analyzed.json`
+4. Add dynamic import case in `src/utils/networkAnalysis.js` `loadAllModelData()`
+5. Add dynamic import case in `src/views/Dashboard.js` data loading
+6. Add model to MODELS array in `scripts/clean_citation_data.js`
+7. Use generic components or create model-specific ones in `src/views/{MODEL_NAME}/`
 
-**Working with Citation Data**
-- Always use `extractPublicationData()` to normalize data structure before processing
-- Use processing functions in `dataUtils.js` for consistent data transformation
-- Handle missing/malformed data gracefully with try-catch blocks
-- All data processing functions return safe defaults on error
+**Data Loading Pattern:**
+- Pages dynamically import JSON via switch/case on model name
+- Use `useMemo` for data processing
+- Wrap in DataLoader component for loading/error/empty states
 
-**Data Loading Pattern**
-- Model-specific pages dynamically import their JSON data file based on the model configuration
-- Use React's `useMemo` hook to process data only when it changes
-- Wrap data-dependent UI in loading/error states using DataLoader component
+**Styling:** Tailwind CSS v2.2.19, Lucide React icons, Recharts charts, D3/TopoJSON for maps. Model-specific colors from `modelConfig.color`.
 
-**Styling**
-- Uses Tailwind CSS for styling (v2.2.19)
-- Lucide React for icons
-- Model-specific colors defined in model configuration (accessed via `modelConfig.color`)
-- Responsive design with mobile-first approach
+## Deployment
 
-## Testing & Deployment
-
-- Built with Create React App
-- Deployed to GitHub Pages via `npm run deploy`
-- No specific test framework beyond React Testing Library (included with CRA)
-- Homepage configured for GitHub Pages deployment at `https://yunks128.github.io/science-model-dashboard`
+- GitHub Pages at `https://yunks128.github.io/science-model-dashboard`
+- `npm run deploy` runs build then `gh-pages -d build`
