@@ -1,0 +1,1642 @@
+{
+  "skeptic:doi:10.1016/j.scitotenv.2024.177636": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2019GL083342": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10040-018-1788-0": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:9987bb9512c29427c4d00e2248830cdd3a8e7497": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 1: Citation Only",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/978-3-319-92853-1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Environmental Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:646ce9c33970d558d6dd57319a20ed39a1da6f79": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.scitotenv.2025.179402": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Environmental Microbiology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10533-014-0038-3": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Contextual Citation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:6c92cd48417f2f912188d46ff0a1bdbe202b2e7d": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Environmental Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/J.JASREP.2018.08.026": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Archaeology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/HESSD-11-10725-2014": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:d77144331cb707d517272486805ad8e0ebca9547": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2022RG000801": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 1: Model Development/Adaptation",
+    "skeptic_domain": "Geophysics / Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.4236/JWARP.2017.97048": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/HESS-2016-557": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.jhydrol.2020.125711": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-2020-165": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Cryosphere",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.envsoft.2024.106123": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Data Science & Engineering",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.envsoft.2021.105227": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 5: Foundational Use",
+    "skeptic_domain": "Environmental Science & Software Engineering",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.envsoft.2020.104908": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Tool/Platform Usage",
+    "skeptic_domain": "Computer Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3389/fenvs.2019.00148": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Software Engineering",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:fec72cab1abc0546f98e08c6434de36da78a88ca": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:2668120a7a97f5e83fb23d1b2b3052fd233b5078": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Tool/Platform Usage",
+    "skeptic_domain": "Geographic Information Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.4018/978-1-5225-5088-4.CH006": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Geographic Information Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/hyp.14847": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/hess-2021-423": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.31274/ETD-180810-5187": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.polar.2025.101216": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Direct Contribution",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10712-025-09885-9": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Cryosphere & Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s41467-025-61588-2": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/bg-22-1447-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-18-1785-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2024JD041772": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:e1550f2a3c61c63e87125423fa0318534b57214e": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1111/gcb.16574": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.ecolecon.2025.108746": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Ecological Economics",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/acp-25-10479-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Chemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-17-4621-2024": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/ae09bb": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/essd-17-2553-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Data/Tool Development",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.scib.2024.05.022": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s43017-021-00230-3": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Carbon Cycle",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/atmos12111425": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Literature Review/Conceptual",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1126/sciadv.abe3596": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 1: Citation/Mention",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1146/annurev-environ-012220-125703": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Conceptual/Review",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2021JF006104": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-2020-365": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Earth System Modeling",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/tc-2020-262": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/tc-2020-164": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Cryospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1111/gcb.14547": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/ESD-9-153-2018": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2024MS004622": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/BG-16-2269-2019": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1073/pnas.1708984114": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/GMD-10-3499-2017": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/GMD-9-3321-2016": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Terrestrial Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:af06c34ddea84626a2ed6e9938925c107bf1f04c": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2025AV002085": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.53894/ijirss.v8i6.9561": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Decision Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.jenvman.2025.125634": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Environmental Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1126/science.adv8893": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Environmental Policy",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1080/17538947.2025.2483982": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs17223720": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/acp-25-8475-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/acp-25-639-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs17020177": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Carbon Cycle Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1186/s13021-024-00273-1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Method Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.scitotenv.2023.169477": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/ad0f74": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.scib.2023.07.010": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:015168e050891f6e026f6dc4d20c48bd551ee1fe": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3389/fclim.2024.1506181": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Climate Change Mitigation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2024GL110931": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Oceanography (Biological/Biogeochemical)",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2024GL111911": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/TGRS.2024.3390179": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:3508595e78cc0b1870dc604ee185bc431807d98c": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Conceptual Framework / Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/add60a": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Forest Ecology and Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/ad193e": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Remote Sensing & GIS",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-16-6161-2023": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Atmospheric Chemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/acb6a7": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/jmse11010175": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/adfd75": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:c719c66ebd2e9cb7135901fa46291facce02e1bd": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 5: Data Product Generation",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-18-287-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2023JD040418": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Environmental Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s43017-023-00410-3": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Citation",
+    "skeptic_domain": "Earth and Environmental Sciences",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-2021-190-rc2": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Conceptual Use",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2021GB007034": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2021RG000736": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/ACP-21-6663-2021": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s41598-022-16236-w": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Ocean & Marine Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/gmd-18-4713-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/amt-16-1239-2023": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Instrument/Sensor Development/Calibration/Validation",
+    "skeptic_domain": "Atmospheric Measurement/Instrumentation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/acp-2021-1039": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Carbon Cycle Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/9781119625865.ch16": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1134/S1024856021050158": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/J.RSE.2021.112473": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/ESSD-2021-210": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/2515-7620/ab3d91": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Geospatial Science / Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/AMT-11-6539-2018": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:2dd0c1b6e7ca4c3d00331ee0e2885b9aa6c1dc26": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Methodology Adaptation",
+    "skeptic_domain": "Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:61f75a8895afaf49fc74eac833945efa6c639cc2": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Earth Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/essd-17-5355-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1111/ele.70157": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Conceptual/Contextual",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2023GB008016": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1126/sciadv.abd2713": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2020GL091875": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3389/feart.2020.00199": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Model Application",
+    "skeptic_domain": "Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/amt-2019-398": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/ESSD-11-1411-2019": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Chemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/RS11070850": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/ACP-19-13017-2019": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Carbon Cycle Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/BG-15-6371-2018": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s40641-018-0103-4": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Literature Review/Synthesis",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1126/science.aam5745": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:3e0f8d88b5c32c512ffff9eeb744da598f1202c2": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.scitotenv.2025.178616": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Acknowledgment",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/bg-22-305-2025": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs16234554": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2023JG007915": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 1: Data/Model Review",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/ace272": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1126/sciadv.ade1112": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Citation/Acknowledgement",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s41467-022-30456-8": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Chemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s43247-021-00314-4": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/ac24d1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.polar.2020.100558": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Earth Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2019MS001818": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Model Development",
+    "skeptic_domain": "Modeling & Simulation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2020GB006574": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.11728/CJSS2018.05.627": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: System Description/Development",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1371/journal.pone.0166039": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Ecosystem & Biogeochemistry",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/J.ATMOSENV.2015.05.032": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Concept/Methodology Discussion",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/2014JD022962": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development/Evaluation",
+    "skeptic_domain": "Carbon Cycle Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs16244634": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2022MS003292": {
+    "reviewed": true,
+    "skeptic_agreement": 1.0,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": false,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2024JD042795": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1117/12.3057898": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Computer Vision",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1080/01431161.2024.2421946": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/BigData59044.2023.10386482": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2023.113708": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/TGRS.2025.3563599": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Machine Learning",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/ACCESS.2025.3597991": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:ad386eebe21b59423b0ca628426e40c1d512ff1f": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Artificial Intelligence & Machine Learning",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:9136a5c2603b02efcef4ba4d8e97ed958ec4c0dc": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:8de767aa71e20abc2439284cbb2c86d52b8b5db6": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation/Application",
+    "skeptic_domain": "Artificial Intelligence / Machine Learning",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:11cb20374855fb5272cde0a5d944a98185f57618": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Direct Comparison/Replication",
+    "skeptic_domain": "Machine Learning",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10546-024-00882-w": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Physics",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/qj.4644": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2021JD036214": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.jcp.2020.110012": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Computational Physics",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10546-020-00530-z": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Conceptual Discussion",
+    "skeptic_domain": "Atmospheric Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s12524-024-01925-y": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/AMT-14-2771-2021": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation/Development",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/amt-2020-275": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1021/acs.est.0c01213": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Method Development",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.5194/amt-2019-414": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Atmospheric Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/qj.3846": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Atmospheric Physics",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s11071-021-06720-9": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 4: Methodology/Theory",
+    "skeptic_domain": "Numerical Analysis",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2024.114455": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Model Development",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2023GL107652": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Foundational Method",
+    "skeptic_domain": "Earth System Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.asr.2019.07.006": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Pre-mission Simulation/Feasibility",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2020.111883": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Instrument Development/Calibration/Validation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1038/s41598-019-42117-w": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Marine Ecology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2019GL083886": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2010.09.008": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/JSTARS.2009.2034614": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Mission Characterization & Performance Assessment",
+    "skeptic_domain": "Remote Sensing for Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs17081330": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/TGRS.2025.3563949": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Geophysics & Geodesy",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1080/01431161.2025.2512162": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 0: Instrument/Mission Design/Calibration/Validation",
+    "skeptic_domain": "Remote Sensing / Earth Observation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1021/acs.estlett.5c00503": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Disaster Management",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2024.114149": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1002/gdj3.233": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Data Infrastructure/Management",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2023.113960": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs16111954": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Oceanography & Data Assimilation",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs15082183": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1088/1748-9326/acbfd1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.marpolbul.2022.113666": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s00190-022-01619-8": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Geodesy",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs14122827": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:bb5189494677e62f3a74d163c60044c82f3477b1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2020.112120": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1029/2019WR026611": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Algorithm Development",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs12172682": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs12203320": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2019.02.002": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Instrument/Algorithm Development/Validation",
+    "skeptic_domain": "Remote Sensing & Geoinformatics",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1109/LGRS.2018.2862470": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1080/07038992.2019.1581056": {
+    "reviewed": true,
+    "skeptic_agreement": 0.2,
+    "skeptic_engagement": "Level 5: Core Mission Team",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:b3e225326e274f6c5315ec1e9c22631f1c9fb85e": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1117/1.JRS.12.036008": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Mission Design/Pre-launch Assessment",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:90f45d6379c887aa15fd1b5a7c122ea89da104ad": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:8749a5a7d7d96e079a54a0c2c29d477adb4dbf1d": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Climate Science",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:c9530ad46d83c6c71035bf1808bff6a60eeebaf5": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s12665-017-7098-3": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Hydrology & Oceanography",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1080/01431161.2017.1371867": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Algorithm Development",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1007/s10712-015-9339-x": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 4: Method/Algorithm Development",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:18243aa2fb06d2f0cec27158774d91dc62694029": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.3390/rs70607938": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:53e431df148eb8c7a1e11f767aad955b88cd83af": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Ocean & Marine Science",
+    "override_flag": true,
+    "review_reason": "high_engagement_low_confidence"
+  },
+  "skeptic:doi:10.1175/JTECH-D-12-00032.1": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Mission Planning & Design",
+    "skeptic_domain": "Remote Sensing & Satellite",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:3820955cb8edcaff563d45bcfe7098f0ed5ccfb5": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:doi:10.1016/j.rse.2011.02.011": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 2: Data Usage",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:dbe6c36c43d66dc050f21c2b8a45e4b814d651af": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:7cf9a3888a57d674302ef099c3df7b42a3c07637": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:8ecc7854a4e282dfc80c1ab25e0a637d2aa6c2bb": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  },
+  "skeptic:pid:351e1992c25073700470b3ab819fce580eef8825": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 3: Model Adaptation",
+    "skeptic_domain": "Hydrology & Water Resources",
+    "override_flag": true,
+    "review_reason": "high_engagement_low_confidence"
+  },
+  "skeptic:pid:40bd19af0a044e2e81ce1dea3bb9c1953dd3d330": {
+    "reviewed": true,
+    "skeptic_agreement": 0.4,
+    "skeptic_engagement": "Level 1: Simple Citation",
+    "skeptic_domain": "Remote Sensing",
+    "override_flag": true,
+    "review_reason": "high_stochastic_variance"
+  }
+}
