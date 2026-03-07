@@ -1,0 +1,195 @@
+Cache: 3344 entries loaded from /home/ks/science-model-dashboard/scripts/domain_extraction_cache.json
+
+============================================================
+Processing SWOT
+============================================================
+  SWOT: 782 papers total
+  21 cached, 761 to process
+  Batch 1/153 (papers 1-5/761) -> 5 classified
+  Batch 2/153 (papers 6-10/761) -> 5 classified
+  Batch 3/153 (papers 11-15/761) -> 5 classified
+  Batch 4/153 (papers 16-20/761) -> 5 classified
+  Batch 5/153 (papers 21-25/761) -> 5 classified
+  Batch 6/153 (papers 26-30/761) -> 5 classified
+  Batch 7/153 (papers 31-35/761) -> 5 classified
+  Batch 8/153 (papers 36-40/761) -> 5 classified
+  Batch 9/153 (papers 41-45/761) -> 5 classified
+  Batch 10/153 (papers 46-50/761) -> 5 classified
+    [checkpoint saved]
+  Batch 11/153 (papers 51-55/761) -> 5 classified
+  Batch 12/153 (papers 56-60/761) -> 5 classified
+  Batch 13/153 (papers 61-65/761) -> 5 classified
+  Batch 14/153 (papers 66-70/761) -> 5 classified
+  Batch 15/153 (papers 71-75/761) -> 5 classified
+  Batch 16/153 (papers 76-80/761) -> 5 classified
+  Batch 17/153 (papers 81-85/761) -> 5 classified
+  Batch 18/153 (papers 86-90/761) -> 5 classified
+  Batch 19/153 (papers 91-95/761) -> 5 classified
+  Batch 20/153 (papers 96-100/761) -> 5 classified
+    [checkpoint saved]
+  Batch 21/153 (papers 101-105/761) -> 5 classified
+  Batch 22/153 (papers 106-110/761) -> 5 classified
+  Batch 23/153 (papers 111-115/761) -> 5 classified
+  Batch 24/153 (papers 116-120/761) -> 5 classified
+  Batch 25/153 (papers 121-125/761) -> 5 classified
+  Batch 26/153 (papers 126-130/761) -> 5 classified
+  Batch 27/153 (papers 131-135/761) -> 5 classified
+  Batch 28/153 (papers 136-140/761) -> 5 classified
+  Batch 29/153 (papers 141-145/761) -> 5 classified
+  Batch 30/153 (papers 146-150/761) -> 5 classified
+    [checkpoint saved]
+  Batch 31/153 (papers 151-155/761) -> 5 classified
+  Batch 32/153 (papers 156-160/761) -> 5 classified
+  Batch 33/153 (papers 161-165/761) -> 5 classified
+  Batch 34/153 (papers 166-170/761) -> 5 classified
+  Batch 35/153 (papers 171-175/761) -> 5 classified
+  Batch 36/153 (papers 176-180/761) -> 5 classified
+  Batch 37/153 (papers 181-185/761) -> 5 classified
+  Batch 38/153 (papers 186-190/761) -> 5 classified
+  Batch 39/153 (papers 191-195/761) -> 5 classified
+  Batch 40/153 (papers 196-200/761) -> 5 classified
+    [checkpoint saved]
+  Batch 41/153 (papers 201-205/761) -> 5 classified
+  Batch 42/153 (papers 206-210/761) -> 5 classified
+  Batch 43/153 (papers 211-215/761) -> 5 classified
+  Batch 44/153 (papers 216-220/761) -> 5 classified
+  Batch 45/153 (papers 221-225/761) -> 5 classified
+  Batch 46/153 (papers 226-230/761) -> 5 classified
+  Batch 47/153 (papers 231-235/761) -> 5 classified
+  Batch 48/153 (papers 236-240/761) -> 5 classified
+  Batch 49/153 (papers 241-245/761) -> 5 classified
+  Batch 50/153 (papers 246-250/761) -> 5 classified
+    [checkpoint saved]
+  Batch 51/153 (papers 251-255/761) -> 5 classified
+  Batch 52/153 (papers 256-260/761) -> 5 classified
+  Batch 53/153 (papers 261-265/761) -> 5 classified
+  Batch 54/153 (papers 266-270/761) -> 5 classified
+  Batch 55/153 (papers 271-275/761) -> 5 classified
+  Batch 56/153 (papers 276-280/761) -> 5 classified
+  Batch 57/153 (papers 281-285/761) -> 5 classified
+  Batch 58/153 (papers 286-290/761) -> 5 classified
+  Batch 59/153 (papers 291-295/761) -> 5 classified
+  Batch 60/153 (papers 296-300/761) -> 5 classified
+    [checkpoint saved]
+  Batch 61/153 (papers 301-305/761) -> 5 classified
+  Batch 62/153 (papers 306-310/761) -> 5 classified
+  Batch 63/153 (papers 311-315/761) -> 5 classified
+  Batch 64/153 (papers 316-320/761) -> 5 classified
+  Batch 65/153 (papers 321-325/761) -> 5 classified
+  Batch 66/153 (papers 326-330/761) -> 5 classified
+  Batch 67/153 (papers 331-335/761) -> 5 classified
+  Batch 68/153 (papers 336-340/761) -> 5 classified
+  Batch 69/153 (papers 341-345/761) -> 5 classified
+  Batch 70/153 (papers 346-350/761) -> 5 classified
+    [checkpoint saved]
+  Batch 71/153 (papers 351-355/761) -> 5 classified
+  Batch 72/153 (papers 356-360/761) -> 5 classified
+  Batch 73/153 (papers 361-365/761) -> 5 classified
+  Batch 74/153 (papers 366-370/761) -> 5 classified
+  Batch 75/153 (papers 371-375/761) -> 5 classified
+  Batch 76/153 (papers 376-380/761) -> 5 classified
+  Batch 77/153 (papers 381-385/761) -> 5 classified
+  Batch 78/153 (papers 386-390/761) -> 5 classified
+  Batch 79/153 (papers 391-395/761) -> 5 classified
+  Batch 80/153 (papers 396-400/761) -> 5 classified
+    [checkpoint saved]
+  Batch 81/153 (papers 401-405/761) -> 5 classified
+  Batch 82/153 (papers 406-410/761) -> 5 classified
+  Batch 83/153 (papers 411-415/761) -> 5 classified
+  Batch 84/153 (papers 416-420/761) -> 5 classified
+  Batch 85/153 (papers 421-425/761) -> 5 classified
+  Batch 86/153 (papers 426-430/761) -> 5 classified
+  Batch 87/153 (papers 431-435/761) -> 5 classified
+  Batch 88/153 (papers 436-440/761) -> 5 classified
+  Batch 89/153 (papers 441-445/761) -> 5 classified
+  Batch 90/153 (papers 446-450/761) -> 5 classified
+    [checkpoint saved]
+  Batch 91/153 (papers 451-455/761) -> 5 classified
+  Batch 92/153 (papers 456-460/761) -> 5 classified
+  Batch 93/153 (papers 461-465/761) -> 5 classified
+  Batch 94/153 (papers 466-470/761) -> 5 classified
+  Batch 95/153 (papers 471-475/761) -> 5 classified
+  Batch 96/153 (papers 476-480/761) -> 5 classified
+  Batch 97/153 (papers 481-485/761) -> 5 classified
+  Batch 98/153 (papers 486-490/761) -> 5 classified
+  Batch 99/153 (papers 491-495/761) -> 5 classified
+  Batch 100/153 (papers 496-500/761) -> 5 classified
+    [checkpoint saved]
+  Batch 101/153 (papers 501-505/761) -> 5 classified
+  Batch 102/153 (papers 506-510/761) -> 5 classified
+  Batch 103/153 (papers 511-515/761) -> 5 classified
+  Batch 104/153 (papers 516-520/761) -> 5 classified
+  Batch 105/153 (papers 521-525/761) -> 5 classified
+  Batch 106/153 (papers 526-530/761) -> 5 classified
+  Batch 107/153 (papers 531-535/761) -> 5 classified
+  Batch 108/153 (papers 536-540/761) -> 5 classified
+  Batch 109/153 (papers 541-545/761) -> 5 classified
+  Batch 110/153 (papers 546-550/761) -> 5 classified
+    [checkpoint saved]
+  Batch 111/153 (papers 551-555/761) -> 5 classified
+  Batch 112/153 (papers 556-560/761) -> 5 classified
+  Batch 113/153 (papers 561-565/761) -> 5 classified
+  Batch 114/153 (papers 566-570/761) -> 5 classified
+  Batch 115/153 (papers 571-575/761) -> 5 classified
+  Batch 116/153 (papers 576-580/761) -> 5 classified
+  Batch 117/153 (papers 581-585/761) -> 5 classified
+  Batch 118/153 (papers 586-590/761) -> 5 classified
+  Batch 119/153 (papers 591-595/761) -> 5 classified
+  Batch 120/153 (papers 596-600/761) -> 5 classified
+    [checkpoint saved]
+  Batch 121/153 (papers 601-605/761) -> 5 classified
+  Batch 122/153 (papers 606-610/761) -> 5 classified
+  Batch 123/153 (papers 611-615/761) -> 5 classified
+  Batch 124/153 (papers 616-620/761) -> 5 classified
+  Batch 125/153 (papers 621-625/761) -> 5 classified
+  Batch 126/153 (papers 626-630/761) -> 5 classified
+  Batch 127/153 (papers 631-635/761) -> 5 classified
+  Batch 128/153 (papers 636-640/761) -> 5 classified
+  Batch 129/153 (papers 641-645/761) -> 5 classified
+  Batch 130/153 (papers 646-650/761) -> 5 classified
+    [checkpoint saved]
+  Batch 131/153 (papers 651-655/761) -> 5 classified
+  Batch 132/153 (papers 656-660/761) -> 5 classified
+  Batch 133/153 (papers 661-665/761) -> 5 classified
+  Batch 134/153 (papers 666-670/761) -> 5 classified
+  Batch 135/153 (papers 671-675/761) -> 5 classified
+  Batch 136/153 (papers 676-680/761) -> 5 classified
+  Batch 137/153 (papers 681-685/761) -> 5 classified
+  Batch 138/153 (papers 686-690/761) -> 5 classified
+  Batch 139/153 (papers 691-695/761) -> 5 classified
+  Batch 140/153 (papers 696-700/761) -> 5 classified
+    [checkpoint saved]
+  Batch 141/153 (papers 701-705/761) -> 5 classified
+  Batch 142/153 (papers 706-710/761) -> 5 classified
+  Batch 143/153 (papers 711-715/761) -> 5 classified
+  Batch 144/153 (papers 716-720/761) -> 5 classified
+  Batch 145/153 (papers 721-725/761) -> 5 classified
+  Batch 146/153 (papers 726-730/761) -> 5 classified
+  Batch 147/153 (papers 731-735/761) -> 5 classified
+  Batch 148/153 (papers 736-740/761) -> 5 classified
+  Batch 149/153 (papers 741-745/761) -> 5 classified
+  Batch 150/153 (papers 746-750/761) -> 5 classified
+    [checkpoint saved]
+  Batch 151/153 (papers 751-755/761) -> 5 classified
+  Batch 152/153 (papers 756-760/761) -> 5 classified
+  Batch 153/153 (papers 761-761/761) -> 1 classified
+  Done: 761 classified, 0 errors
+  Unique domains found: 331
+    Remote Sensing: 636 (81.3%)
+    Satellite Altimetry: 495 (63.3%)
+    Hydrology & Water Resources: 372 (47.6%)
+    Numerical Methods: 266 (34.0%)
+    Ocean Circulation: 225 (28.8%)
+    Physical Oceanography: 161 (20.6%)
+    Oceanography: 157 (20.1%)
+    River Routing: 150 (19.2%)
+    Geodesy & Gravity: 127 (16.2%)
+    Data Assimilation: 117 (15.0%)
+    Ocean Modeling: 104 (13.3%)
+    Water Resource Management: 93 (11.9%)
+    Geophysics: 89 (11.4%)
+    Coastal Dynamics: 82 (10.5%)
+    Flood Modeling: 71 (9.1%)
+
+Cache: 4096 total entries saved
+Done.
