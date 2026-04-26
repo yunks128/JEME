@@ -9,6 +9,7 @@ journal_paper/
 ├── journal_paper_draft.md             # Master source (Markdown, prose form)
 ├── journal_paper_draft.docx           # Pandoc-rendered Word version (plain black text)
 ├── generate_figures.py                # Reproducible figure + PPT generator
+├── capture_screenshots.py             # Playwright capture of live dashboards
 ├── figures/
 │   ├── fig1_citation_overview.png     # Papers/citations per model (12pt fonts)
 │   ├── fig5_network_matrix.png        # Cross-model bridge-paper matrix
@@ -16,7 +17,12 @@ journal_paper/
 │   ├── fig8_sphere_coverage.png       # Earth-system-sphere coverage
 │   ├── fig9_full_text_pipeline.mmd    # Mermaid: tiered fetch pipeline
 │   ├── architecture.mmd               # Mermaid: overall system
-│   └── journal_paper_figures.pptx     # Editable PowerPoint with all six
+│   ├── fig11_jeme_dashboard.png       # Screenshot: JEME main dashboard
+│   ├── fig12_ecco_model.png           # Screenshot: ECCO model page
+│   ├── fig13_ecco_uncertainty.png     # Screenshot: ECCO UQ page
+│   ├── fig14_jeoe_dashboard.png       # Screenshot: JEOE missions
+│   ├── fig15_jesp_dashboard.png       # Screenshot: JESP scientist profiles
+│   └── journal_paper_figures.pptx     # Editable PowerPoint (figures 1, 5, 7, 8, 9, 10)
 └── README.md
 ```
 
@@ -26,6 +32,10 @@ journal_paper/
 # Recompute statistics from current public/data/*_analyzed.json,
 # regenerate PNG figures, and rebuild the editable PPT.
 python3 generate_figures.py
+
+# Capture fresh dashboard screenshots (requires the JEME/JEOE dev
+# server on :3000 and the JESP server on :3002 to be running).
+python3 capture_screenshots.py
 
 # Rebuild the DOCX from the markdown.
 pandoc journal_paper_draft.md -o journal_paper_draft.docx \

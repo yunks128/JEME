@@ -191,9 +191,23 @@ Classification of all JEME publications into Earth's five spheres reveals compre
 
 ![Figure 8. Earth-system-sphere coverage by JEME model.](figures/fig8_sphere_coverage.png)
 
-### 4.7 Platform Extensibility
+### 4.7 Deployed Dashboards
 
-To demonstrate platform extensibility, the same technology — citation collection, LLM classification, uncertainty quantification, and network analysis — was applied to profile 199 scientists in JPL's Earth Science Section. The system extracted 12,768 publications with 1,022,329 total citations from OpenAlex and Semantic Scholar APIs, classified research expertise using Gemini, and constructed a collaboration network with 1,281 co-publication connections across 11 research groups. Deployment required days rather than months, validating the platform's reusability.
+The platform is publicly deployed as three live dashboards. The JEME entry point (Figure 11) presents an interactive Earth Modeling Enterprise overview with the eight modeling systems and links into per-model views. The per-model view (Figure 12, ECCO) shows the science models overview, the selected model's seed-paper list with engagement-tier annotations, and links to the citations, geographic-impact, research-domains, and uncertainty sub-pages. The uncertainty sub-page (Figure 13) renders the three-phase UQ outputs as composite confidence, an evidence-versus-reasoning confidence matrix, classification confidence by engagement level, and an abstract-coverage indicator for every entry. The JEOE entry point (Figure 14) provides the equivalent overview for the three observation missions (GRACE, SWOT, TROPESS) with mission-impact comparison. All three dashboards share a context-aware navigation bar that swaps logo, title, and links depending on whether the user is in JEME or JEOE context.
+
+![Figure 11. JEME dashboard — main entry point.](figures/fig11_jeme_dashboard.png)
+
+![Figure 12. ECCO model page — seed-paper list with engagement annotations.](figures/fig12_ecco_model.png)
+
+![Figure 13. ECCO uncertainty page — confidence matrix and per-tier confidence.](figures/fig13_ecco_uncertainty.png)
+
+![Figure 14. JEOE dashboard — three observation missions and impact comparison.](figures/fig14_jeoe_dashboard.png)
+
+### 4.8 Platform Extensibility
+
+To demonstrate platform extensibility, the same technology — citation collection, LLM classification, uncertainty quantification, and network analysis — was applied to profile 199 scientists in JPL's Earth Science Section (Figure 15). The system extracted 12,768 publications with 1,022,329 total citations from OpenAlex and Semantic Scholar APIs, classified research expertise using Gemini, and constructed a collaboration network with 1,281 co-publication connections across 11 research groups. Deployment required days rather than months, validating the platform's reusability.
+
+![Figure 15. JESP dashboard — scientist profiles with collaboration network.](figures/fig15_jesp_dashboard.png)
 
 
 ## 5. Discussion
@@ -242,8 +256,13 @@ The platform provides a quantitative evidence base for JPL's Strategic R&TD plan
 | 8 | `figures/fig8_sphere_coverage.png` | Model-to-sphere mapping |
 | 9 | `figures/fig9_full_text_pipeline.mmd` | Multi-source full-text retrieval pipeline (Mermaid source) |
 | 10 | `figures/architecture.mmd` | Overall system architecture (Mermaid source) |
+| 11 | `figures/fig11_jeme_dashboard.png` | JEME dashboard screenshot (eight Earth system models) |
+| 12 | `figures/fig12_ecco_model.png` | ECCO model page screenshot |
+| 13 | `figures/fig13_ecco_uncertainty.png` | ECCO uncertainty page screenshot (three-phase UQ outputs) |
+| 14 | `figures/fig14_jeoe_dashboard.png` | JEOE dashboard screenshot (three observation missions) |
+| 15 | `figures/fig15_jesp_dashboard.png` | JESP dashboard screenshot (199 scientist profiles) |
 
-Editable PowerPoint versions of all six figures are provided in `figures/journal_paper_figures.pptx`.
+Editable PowerPoint versions of the six pipeline / chart figures are provided in `figures/journal_paper_figures.pptx`. Figures 11–15 are dashboard screenshots captured live from the deployed sites.
 
 
 ## References
