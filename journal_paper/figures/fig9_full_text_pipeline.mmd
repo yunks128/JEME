@@ -1,0 +1,32 @@
+---
+title: "Figure 9 — Multi-source full-text retrieval pipeline for DAS/Methods enrichment"
+---
+flowchart TD
+    Start([DOI from citation entry]) --> Copernicus{Copernicus<br/>journal?<br/>10.5194}
+    Copernicus -->|yes| CopGet[Direct article HTML<br/>open OA]
+    Copernicus -->|no| Wiley{AGU/Wiley<br/>10.1029, 10.1002,<br/>10.1111}
+    Wiley -->|yes| WileyTDM[Wiley TDM API<br/>token: WILEY_TDM_TOKEN<br/>returns PDF, parsed by pypdf]
+    Wiley -->|no| Elsevier{Elsevier<br/>10.1016}
+    Elsevier -->|yes| ElsevierTDM[Elsevier TDM API<br/>token: ELSEVIER_TDM_TOKEN<br/>returns XML]
+    Elsevier -->|no| Unpaywall[Unpaywall API<br/>oa_locations, all hosts<br/>PDF first then HTML]
+    CopGet --> Success
+    WileyTDM --> Success
+    ElsevierTDM --> Success
+    Unpaywall -->|hit| Success
+    Unpaywall -->|miss| OpenAlex[OpenAlex API<br/>institutional repositories<br/>Oxford ORA, Soton ePrints,<br/>Reading Centaur, NOAA]
+    OpenAlex -->|hit| Success
+    OpenAlex -->|miss| S2[Semantic Scholar API<br/>openAccessPdf field]
+    S2 -->|hit| Success
+    S2 -->|miss| DOIRedirect[DOI redirect<br/>last-resort]
+    DOIRedirect -->|hit| Success
+    DOIRedirect -->|miss| Failed([fetch_failed])
+    Success([HTML or PDF text]) --> Extract[Extract DAS, Methods,<br/>and marker contexts]
+    Extract --> LLM[Append to abstract<br/>send to Gemini classifier]
+    LLM --> Decision{Engagement<br/>level changed?}
+    Decision -->|yes| Flip[Apply flip<br/>record provenance]
+    Decision -->|no| Keep[Keep label]
+
+    style Start fill:#e3f2fd
+    style Success fill:#c8e6c9
+    style Failed fill:#ffcdd2
+    style Flip fill:#fff9c4

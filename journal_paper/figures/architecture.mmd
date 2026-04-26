@@ -1,0 +1,46 @@
+---
+title: "System architecture — JEME/JEOE Earth Science Dashboard"
+---
+flowchart LR
+    subgraph Sources [Data Sources]
+        SS[Semantic Scholar<br/>Academic Graph]
+        CR[Crossref<br/>REST API]
+        UP[Unpaywall API]
+        OA[OpenAlex API]
+        Wiley[Wiley TDM]
+        Else[Elsevier TDM]
+        Cop[Copernicus]
+    end
+    subgraph Pipeline [Citation Analytics Pipeline]
+        direction TB
+        Seed[Seed paper<br/>identification] --> Collect[Citation<br/>collection]
+        Collect --> Verify[Multi-agent<br/>verification<br/>5 agents]
+        Verify --> PR[Peer-review<br/>filtering]
+        PR --> Enrich[DAS / Methods<br/>enrichment<br/>Fig. 9]
+        Enrich --> LLM[Gemini classifier<br/>engagement level<br/>research domain]
+        LLM --> UQ[Three-phase<br/>uncertainty<br/>quantification]
+    end
+    subgraph Storage [Storage]
+        JSON[(model_analyzed.json<br/>per model/mission)]
+    end
+    subgraph Frontend [React Dashboard]
+        direction TB
+        JEME[JEME<br/>8 models]
+        JEOE[JEOE<br/>3 missions]
+        JESP[JESP<br/>199 scientists]
+        Network[Cross-model<br/>network analysis]
+        Sphere[Earth-system<br/>sphere classification]
+        MCL[MCL<br/>capability<br/>maturity]
+    end
+
+    Sources --> Pipeline
+    Pipeline --> Storage
+    Storage --> Frontend
+    Storage --> Network
+    Storage --> Sphere
+    Storage --> MCL
+
+    style Sources fill:#e3f2fd
+    style Pipeline fill:#fff9c4
+    style Storage fill:#f3e5f5
+    style Frontend fill:#c8e6c9
