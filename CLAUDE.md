@@ -103,7 +103,7 @@ Supports `--model NAME`, `--all`, and `--dry-run` flags. Idempotent.
 Three-tier classification:
 1. **Tier 1 — Deterministic venue patterns:** Blocklist matching (arxiv, preprints, discussions, meeting abstracts, theses, posters, etc.) with exceptions for peer-reviewed venues that contain blocklist words (PNAS, Proc. Royal Society, IEEE, etc.)
 2. **Tier 2 — Crossref DOI type lookup:** Queries Crossref API for `journal-article` vs `posted-content` etc.
-3. **Tier 3 — Gemini LLM fallback:** For ambiguous cases (requires `GEMINI_API_KEY`)
+3. **Tier 3 — LLM fallback:** For ambiguous cases (uses the shared Bedrock client; see LLM Backend below). Skip with `--no-llm`.
 
 Non-peer-reviewed papers are removed from JSON files and logged in `scripts/removed_non_peer_reviewed.json`.
 
@@ -151,20 +151,35 @@ Three-phase pipeline for quantifying classification confidence. Each phase adds 
 - Composite: `0.45 * evidence + 0.45 * reasoning - 0.10 * pipeline_variance`
 
 **Phase 2 — Multi-temperature LLM sampling (`scripts/phase2_llm_confidence.py`):**
-- Calls Gemini 3x at temperatures [0.1, 0.5, 1.0] per entry
+- Calls the LLM 3x at temperatures [0.1, 0.5, 1.0] per entry
 - `stochastic_variance`: fraction of runs disagreeing with majority label (0.0-0.67)
-- `reasoning_confidence`: average of Gemini's self-assessed confidence (1-5), normalized to 0-1
+- `reasoning_confidence`: average of the model's self-assessed confidence (1-5), normalized to 0-1
 - Updated composite: `0.35 * evidence + 0.35 * reasoning + 0.20 * (1 - stochastic_variance) - 0.10 * pipeline_variance`
-- Requires `GEMINI_API_KEY` env var (available in `.bashrc`), caches in `scripts/phase2_cache.json`
+- Uses the shared Bedrock client (see LLM Backend below), caches in `scripts/phase2_cache.json`
 
 **Phase 3 — Skeptic agent (`scripts/phase3_skeptic_agent.py`):**
 - Reviews high-risk entries: `miscalibration_risk == "high"`, `stochastic_variance > 0.3`, or high engagement with low confidence
-- Asks Gemini to challenge existing classification, rates agreement (1-5)
+- Asks the LLM to challenge existing classification, rates agreement (1-5)
 - `override_flag: true` when skeptic agreement <= 2/5
 - Adds `skeptic_review` block with agreement score, alternative classifications, and review reason
-- Requires `GEMINI_API_KEY`, caches in `scripts/phase3_cache.json`
+- Uses the shared Bedrock client, caches in `scripts/phase3_cache.json`
 
 **Run order:** Phase 1 → Phase 2 → Phase 1 (recompute with Phase 2 data) → Phase 3
+
+### LLM Backend (`scripts/llm_client.py`)
+
+All analysis scripts call the LLM through one shared client, `scripts/llm_client.py`, which uses **AWS Bedrock** (Anthropic Claude). Do not add per-script API calls — import `call_llm` instead:
+
+```python
+from llm_client import call_llm
+data = call_llm(prompt, system=SYSTEM_PROMPT, temperature=0.1)  # returns parsed JSON by default
+text = call_llm(prompt, json_mode=False)                        # raw text
+```
+
+- **Auth:** bearer token in `.env.bedrock` (`AWS_BEARER_TOKEN_BEDROCK`), git-ignored. The client auto-loads it.
+- **Model/region via env:** `BEDROCK_MODEL_ID` (default `us.anthropic.claude-sonnet-4-5-20250929-v1:0`), `BEDROCK_REGION` (default `us-east-1`). The `us.` inference-profile prefix is required.
+- Handles retry/backoff on throttling and strips ```` ```json ```` fences before parsing. Requires `boto3>=1.35`.
+- A deprecated `call_gemini(...)` shim forwards legacy call sites to `call_llm`; prefer `call_llm` in new code.
 
 **UI:** Uncertainty page at `/{modelName}/uncertainty` (`GenericUncertaintyPage.js`). Phase 2/3 sections (`StochasticVarianceCard`, `SkepticReviewCard`) render conditionally when data exists.
 
