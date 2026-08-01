@@ -122,6 +122,14 @@ Fetches missing journal/venue info for citation papers using external APIs:
 - Caches results in `scripts/ecco_venue_cache.json` for incremental reruns
 - Run with: `python3 scripts/fetch_ecco_venues.py`
 
+### Published Product Catalog (`scripts/build_tropess_catalog.py`)
+
+Fetches a mission's published data-product catalog live from **NASA CMR** (the API behind the DAAC portals) and writes `public/data/{MISSION}_catalog.json`, consumed by `ProductCatalogSection.js` ("Published Data Products" cards: product/level/instrument stats + a data-coverage timeline).
+
+- Multi-mission via `--mission` (config table for TROPESS, GRACE, SWOT): each sets CMR keyword + provider + parser. TROPESS uses GES_DISC with trace-gas species/stream title parsing; GRACE/SWOT use POCLOUD (PO.DAAC) with a generic parser (level/platform/instrument from UMM fields; no species/streams).
+- `python scripts/build_tropess_catalog.py` (TROPESS default) · `--mission GRACE` · `--mission SWOT` · `--with-granules` (adds a slow volume estimate).
+- `ProductCatalogSection` takes `mission`/`dataFile`/`catalogUrl`/`sourceLabel` props; the `by_stream` legend renders only for missions that have streams.
+
 ### TROPESS Two-Page Split (data users vs. science-impact readers)
 
 TROPESS serves two audiences, so it has two pages linked by `TropessPageTabs.js`:
