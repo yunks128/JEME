@@ -129,6 +129,7 @@ Fetches a mission's published data-product catalog live from **NASA CMR** (the A
 - Multi-mission via `--mission` (config table for TROPESS, GRACE, SWOT): each sets CMR keyword + provider + parser. TROPESS uses GES_DISC with trace-gas species/stream title parsing; GRACE/SWOT use POCLOUD (PO.DAAC) with a generic parser (level/platform/instrument from UMM fields; no species/streams).
 - `python scripts/build_tropess_catalog.py` (TROPESS default) · `--mission GRACE` · `--mission SWOT` · `--with-granules` (adds a slow volume estimate).
 - `ProductCatalogSection` takes `mission`/`dataFile`/`catalogUrl`/`sourceLabel` props; the `by_stream` legend renders only for missions that have streams.
+- **CMR returns one entry per collection VERSION**, so a product with a V1 and a V2 appears twice under the same `ShortName` (different DOIs). `dedupe_collections()` keeps the newest version and sorts by short name, so counts are per-collection and reruns are byte-identical when nothing changed upstream (a precondition for scheduling it). `meta.superseded_versions` records how many were collapsed — currently 30 for TROPESS (212 CMR entries → 182 collections).
 
 ### TROPESS Two-Page Split (data users vs. science-impact readers)
 
