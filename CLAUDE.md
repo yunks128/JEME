@@ -140,7 +140,9 @@ TROPESS serves two audiences, so it has two pages linked by `TropessPageTabs.js`
 
 Aggregates the GES DISC monthly CSVs in `scripts/tropess_downloads/` into `public/data/TROPESS_downloads.json`, consumed by `MonthlyReportSection.js`. Beyond the deck's slides 3-7 it emits:
 - `cumulative` — running total of files/volume through each month ("Cumulative Downloads in Time"); distinct from `monthly`, which is per-month.
-- `cumulative_by_product_type` — Summary / Standard / Full tiers, derived from the 5th char of the V1 short name (`TRPS<D|Y|F>L2...`; D=Standard, Y=Summary, F=Full). `TRPSCR*` chemical-reanalysis collections have no tier and are reported separately as TCR-2.
+- `cumulative_by_product_type` — Summary / Standard / Full tiers, derived from the 5th char of the V1 short name (`TRPS<D|Y|F>L2...`; D=Standard, Y=Summary, F=Full), matching the `product_type` column of the product spec.
+
+`TRPSCR*` chemical-reanalysis collections (spec `product_type: tcr3`) are **not** a product tier: they are excluded from `cumulative_by_product_type` and reported as their own **TCR-2 processing type** in `cumulative_by_type`, alongside Forward / Reanalysis / Special. This mirrors `download_statistic_plots.ipynb`; both breakdowns reconcile to its totals exactly (Forward 636,203 · Reanalysis 419,447 · Special 478,184 · TCR-2 71,623 | Summary 858,811 · Standard 674,789 · Full 234).
 
 Monthly update: drop the new `tropess_monthly_YYYYMM.csv` into `scripts/tropess_downloads/` and rerun the script.
 
