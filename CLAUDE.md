@@ -44,6 +44,7 @@ Centralized config for all models and missions. Each entry has: name, displayNam
 - `/science-model-dashboard/{modelName}/geographic-impact` - Geographic impact
 - `/science-model-dashboard/{modelName}/research-domains` - Research domains
 - `/science-model-dashboard/how-it-works` - Methodology page
+- `/science-model-dashboard/TROPESS/data-products` - TROPESS data products & downloads page
 - Some models (CMS-Flux, ECCO, ISSM, CARDAMOM, MOMO-CHEM) have model-specific research-domains routes
 - Legacy routes maintained for backward compatibility
 
@@ -120,6 +121,20 @@ Fetches missing journal/venue info for citation papers using external APIs:
 - **Semantic Scholar batch API** for entries with only `paper_id`
 - Caches results in `scripts/ecco_venue_cache.json` for incremental reruns
 - Run with: `python3 scripts/fetch_ecco_venues.py`
+
+### TROPESS Two-Page Split (data users vs. science-impact readers)
+
+TROPESS serves two audiences, so it has two pages linked by `TropessPageTabs.js`:
+- `/TROPESS` (`src/views/TROPESS/Dashboard.js`) — **Paper Publications**: citations, research domains, engagement, uncertainty. Starts at the "About TROPESS" panel.
+- `/TROPESS/data-products` (`src/views/TROPESS/DataProducts.js`) — **Data Products & Downloads**: `MonthlyReportSection` (which itself renders `ProductCatalogSection`) and every download panel.
+
+### Download Metrics (`scripts/build_tropess_downloads.py`)
+
+Aggregates the GES DISC monthly CSVs in `scripts/tropess_downloads/` into `public/data/TROPESS_downloads.json`, consumed by `MonthlyReportSection.js`. Beyond the deck's slides 3-7 it emits:
+- `cumulative` — running total of files/volume through each month ("Cumulative Downloads in Time"); distinct from `monthly`, which is per-month.
+- `cumulative_by_product_type` — Summary / Standard / Full tiers, derived from the 5th char of the V1 short name (`TRPS<D|Y|F>L2...`; D=Standard, Y=Summary, F=Full). `TRPSCR*` chemical-reanalysis collections have no tier and are reported separately as TCR-2.
+
+Monthly update: drop the new `tropess_monthly_YYYYMM.csv` into `scripts/tropess_downloads/` and rerun the script.
 
 ### Data Quality & Multi-Agent Verification
 
