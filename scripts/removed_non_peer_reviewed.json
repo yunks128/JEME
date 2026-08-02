@@ -1,0 +1,770 @@
+[
+  {
+    "title": "Microwave Radiometry Improves Modelling of Surface Melt Processes of Antarctic Firn",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Empirical classiﬁcation of dry-wet snow status in Antarctica using multi-frequency passive microwave observations",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "DeepMelt-GL v1: A neural network emulator of ice-shelf melt rates for use in ocean models which partially resolve ice-shelf cavities",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "A Beamforming Microwave Interferometric Radiometer for High-resolution Passive Imaging: Concept, Modeling, and Preliminary Demonstration",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "IMAGE RECOVERY METHODS FOR FREE-FLYING SYNTHETIC APERTURE RADIOMETERS",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Groundwater feedbacks on ice sheets and subglacial hydrology",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Random forest parameterization of Antarctic subglacial hydrology for coupled ice-flow modelling",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Simulating jökulhlaups from an ice-marginal lake within a 2D model of subglacial drainage and basal sliding",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Constrained Bayesian Optimisation with Multiple Information Sources",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Multifidelity Proper Orthogonal Decomposition",
+    "doi": "10.48550/arXiv.2605.29213",
+    "venue": "arXiv.org",
+    "reason": "tier1_venue_pattern:arxiv",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "FIRE: Multi-fidelity Regression with Distribution-conditioned In-context Learning using Tabular Foundation Models",
+    "doi": "10.48550/arXiv.2601.22371",
+    "venue": "arXiv.org",
+    "reason": "tier1_venue_pattern:arxiv",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "SMRS: advocating a unified reporting standard for surrogate models in the artificial intelligence era",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Case for a uniﬁed surrogate modelling framework in the age of AI",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Calibration of a coupled ice sheet-ocean model using observations of ice dynamics and basal melt in West Antarctica",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "A numerical framework for modeling iceberg calving and ice-front migration of grounded glacier tongues",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "On the theoretical limitations of joint inversion for basal slipperiness and effective viscosity in ice-flow models",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Learning Subglacial Bed Topography from Sparse Radar with Physics-Guided Residuals",
+    "doi": "10.1109/WACV61042.2026.00528",
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Calibrated sea level contribution from the Amundsen Sea sector, West Antarctica, under RCP8.5 and Paris 2C scenarios",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The potential of Marine Ice Cliﬀ Instability for Amundsen Sea glaciers revisited",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The implementation and effectiveness of Calving Algorithms in numerical ice models (CalvingMIP)",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "What is glacier sliding",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Reconstruction of the 1989 Laguna Del Cerro Largo GLOF: an Interdisciplinary Understanding of GLOF Impacts",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Influence of water extraction on subglacial hydrology and glacier velocity",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "PROMICE: Greenland ice velocity maps v2026",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Computationally efﬁcient subglacial drainage modelling using Gaussian process emulators: GlaDS-GP v1.0",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Multi-annual patterns of rapidly draining supraglacial lakes in Northeast Greenland",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Probabilistic projections of the Amery Ice Shelf catchment, Antarctica, under high ice-shelf basal melt conditions",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Disentangling uncertainty in ISMIP6 Antarctic sub-shelf melting and 2300 sea level rise projections",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Title: Timescales of Antarctic ice shelf loss via basal crevassing",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Calving driven by horizontal forces in a revised crevasse-depth framework",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Calving from horizontal forces in a revised crevasse-depth framework",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Seasonal biases in glacier surface flow velocities measured from optical remote sensing images",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The Greenland Ice Sheet Large Ensemble (GrISLENS): simulating the future of Greenland under climate variability",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Hysteresis of idealized, instability-prone outlet glaciers under variation of pinning-point buttressing",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Uncertainty Quantification on Graph Learning: A Survey",
+    "doi": "10.48550/arXiv.2404.14642",
+    "venue": "arXiv.org",
+    "reason": "tier1_venue_pattern:arxiv",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Comparative Analysis of Supervised and Unsupervised Classification Methods for Sentinel-2 Imagery",
+    "doi": "10.1109/IRASET64571.2025.11007978",
+    "venue": "2025 5th International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Cloud computing using Google Earth Engine and Sentinel-1 SAR images to detect water bodies changes at coastal city",
+    "doi": "10.1088/1755-1315/1410/1/012038",
+    "venue": "IOP Conference Series: Earth and Environment",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Using GIS tools to enhance the shape of coastline extracted from Sentinel-2 satellite images",
+    "doi": "10.1109/IRASET60544.2024.10549564",
+    "venue": "2024 4th International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "SNOWED: Automatically Constructed Dataset of Satellite Imagery for Water Edge Measurements",
+    "doi": "10.3390/s23094491",
+    "venue": "Italian National Conference on Sensors",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Analysis of shoreline changes in Yogyakarta coastal areas using remote sensing method",
+    "doi": "10.1088/1755-1315/1134/1/012012",
+    "venue": "IOP Conference Series: Earth and Environment",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Watershed Algorithm-Based RoI Reduction Techniques for Improving Ship Detection Accuracy in Satellite Imagery",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "ArticleAutomatic shoreline detection from 8-band VHR satellite imagery Maria Alicandro 1",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Satellite-based shoreline detection along high-energy macrotidal Satellite-based shoreline detection along high-energy macrotidal coasts and influence of beach state coasts and influence of beach state",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Assessment OF Groundwater Recharge Under Changing Climatic Conditions in Alguwair Area, Northern Iraq",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "GAKG: A Multimodal Geoscience Academic Knowledge Graph",
+    "doi": "10.1145/3459637.3482003",
+    "venue": "International Conference on Information and Knowledge Management",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The creation of a regression model of the Earth’s pole motion with a feature of dynamic prediction",
+    "doi": "10.1088/1742-6596/1697/1/012029",
+    "venue": "Journal of Physics: Conference Series",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Earth Rotation",
+    "doi": "10.1007/978-3-030-10475-7_177-1",
+    "venue": "Encyclopedia of Solid Earth Geophysics",
+    "reason": "tier1_venue_pattern:encyclopedia",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Constraining 20th ‐ century sea ‐ level rise in the South Atlantic Constraining 20th century sea level rise in the South Atlantic Ocean Ocean",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Earth Rotation",
+    "doi": "10.1007/978-3-030-58631-7_177",
+    "venue": "Encyclopedia of Solid Earth Geophysics",
+    "reason": "tier1_venue_pattern:encyclopedia",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Geodesy, Figure of the Earth",
+    "doi": "10.1007/springerreference_225658",
+    "venue": "Encyclopedia of Solid Earth Geophysics",
+    "reason": "tier1_venue_pattern:encyclopedia",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "E Earth Rotation",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Modeling and Forecasting the GPS Zenith Troposphere Delay in West Antarctica Based on Different Blind Source Separation Methods and Deep Learning",
+    "doi": "10.3390/s20082343",
+    "venue": "Italian National Conference on Sensors",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Climate-and Weather-Driven Solid-Earth Deformation and Seismicity",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Geodesy",
+    "doi": "10.1016/b978-0-08-102908-4.00176-4",
+    "venue": "Encyclopedia of Geology",
+    "reason": "tier1_venue_pattern:encyclopedia",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Meteorological application of a dense GNSS network utilizing atmospheric delay gradient and crustal subsidence: The 2018 disastrous rain episode in SW Japan",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "GNSS2TWS_Slepian: A software to recover daily GNSS-inverted terrestrial water storage changes based on Slepian basis functions",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Multifractal Complexity of the Chandler Wobble and Its Anomalous Disappearance (2015--2020): A MFDFA Study",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Soil carbon in the world’s tidal marshes",
+    "doi": "10.1038/s41467-024-54572-9",
+    "venue": "bioRxiv",
+    "reason": "tier1_venue_pattern:biorxiv",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Down to Earth",
+    "doi": "10.21983/P3.0306.1.00",
+    "venue": "",
+    "reason": "tier2_crossref:monograph",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Excitation of the Earth's Chandler wobble by the North Atlantic double-gyre",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Analysis of 25 Years of Polar Motion Derived from the DORIS Space Geodetic Technique Using FFT and SSA Methods",
+    "doi": "10.3390/s20102823",
+    "venue": "Italian National Conference on Sensors",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Extraction des variations spatio-temporelles du champ de gravité à partir des données de la mission spatiale GRACE : méthodes et applications géophysiques",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Continental drift of the rotation pole: observation and theory",
+    "doi": "10.1088/1757-899X/468/1/012005",
+    "venue": "IOP Conference Series: Materials Science and Engineering",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Geodetic Observations as a Monitor of Climate Change",
+    "doi": "10.1017/9781316761489.009",
+    "venue": "",
+    "reason": "tier2_crossref:book-chapter",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Future Earth and the Cryosphere",
+    "doi": "10.1017/9781316761489.011",
+    "venue": "",
+    "reason": "tier2_crossref:book-chapter",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The End of Oil",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Problems associated with the intensive use of some “clean” renewable energies",
+    "doi": "10.1109/ICCEP.2017.8004796",
+    "venue": "International Conference on Clean Electrical Power",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "High-quality constraints on the glacial isostatic adjustment process over North America: The ICE-7G_NA (VM7) model",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "MSSA of globally gridded OAM from ECCO, AAM from ECMWF, and gravity from GRACE",
+    "doi": "10.1109/DIPDMWC.2016.7529376",
+    "venue": "2016 Third International Conference on Digital Information Processing, Data Mining, and Wireless Communications (DIPDMWC)",
+    "reason": "tier1_conference_proceedings",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Long-term (1979-2010) ice mass balance in Antarctica and Greenland estimated from the Earth’s rotational pole variations.",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "1 Response to Anonymous Referee # 1",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "50 Years of Satellite Remote Sensing of the Ocean",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "EXPLORATIONS: AN OPEN INVITATION TO BIOLOGICAL ANTHROPOLOGY",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The false I and the true I From Babylon to the New Jerusalem How to read the signs of time",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Earth Rotation, Excitation, Core",
+    "doi": "10.1007/978-3-319-02370-0_85-1",
+    "venue": "",
+    "reason": "tier2_crossref:book-chapter",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Monitoring Global Sea Level Change from Spaceborne and In Situ Observing Systems Recent advances",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Frontiers of Biogeography",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "A Study of Ocean Mass and Transport with Remote Sensing",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Extending the Record of Time-Variable Gravity by Combining Grace and Conventional Tracking Data",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "GNSS signal reflections off sea ice",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "True polar wander on convecting planets",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "ODU Digital Commons ODU Digital Commons",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Derivation of bedrock topography measurement requirements for the reduction of uncertainty in ice sheet model projections of Thwaites Glacier",
+    "doi": "10.5194/tc-2021-274",
+    "venue": "",
+    "reason": "tier2_crossref:posted-content",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "A new sampling capability for uncertainty quantification in the Ice-sheet and Sea-level System Model v4.19 using Gaussian Markov random fields",
+    "doi": "10.5194/gmd-2021-321",
+    "venue": "",
+    "reason": "tier2_crossref:posted-content",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Exceptionally High Geothermal Heat Flux Needed to Sustain the Northeast Greenland Ice Stream",
+    "doi": "10.5194/tc-2019-212",
+    "venue": "",
+    "reason": "tier2_crossref:posted-content",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Simulation of the Eemian Greenland ice sheet",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Eemian Greenland ice sheet simulated with a higher-order model\nshows strong sensitivity to SMB forcing",
+    "doi": "10.5194/TC-2018-225",
+    "venue": "",
+    "reason": "tier2_crossref:posted-content",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Inferred basal friction and surface mass balance of North-East Greenland Ice Stream using data assimilation of ICESat-1 surface altimetry and ISSM",
+    "doi": "10.5194/TCD-8-2331-2014",
+    "venue": "",
+    "reason": "tier2_crossref:posted-content",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Glacier Energy and Mass Balance (GEMB v1.0): A model of firn processes for cryosphere research",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "A new sampling capability",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Interactive comment on “Exploration of Antarctic Ice Sheet 100-year contribution to sea level rise and associated model uncertainties using the ISSM framework” by Nicole-Jeanne Schlegel et al",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Design and results of the ice sheet model initialisation initMIP-Greenland: An ISMIP6 intercomparison",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "The effect of overshooting 1.5 ◦ C global warming on the mass loss of the Greenland Ice Sheet",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Title Ice discharge uncertainties in Northeast Greenland from boundary conditions and climate forcing of an ice flow model Permalink",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Northeast Greenland Ice Stream using data assimilation of ICESat ( Ice Cloud and land Elevation Satellite ) surface altimetry and ISSM ( Ice Sheet System Model ) Permalink",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  },
+  {
+    "title": "Response to",
+    "doi": "",
+    "venue": "",
+    "reason": "tier1_no_venue_no_doi",
+    "model": "ISSM",
+    "source": "new_team_paper_citations"
+  }
+]
