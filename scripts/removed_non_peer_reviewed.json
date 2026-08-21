@@ -766,5 +766,2091 @@
     "reason": "tier1_no_venue_no_doi",
     "model": "ISSM",
     "source": "new_team_paper_citations"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A global analysis of climate-driven reversal risks in forests",
+    "venue": "bioRxiv",
+    "doi": "10.64898/2026.06.19.733404",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Environment-Adaptive Preference Optimization for Wildfire Prediction",
+    "venue": "arXiv.org",
+    "doi": "10.48550/arXiv.2605.12435",
+    "reason": "tier1_venue_pattern:arxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Predicting Wildfire Burn Severity from Pre-Fire SAR Signatures: A Deep Learning Approach",
+    "venue": "2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML)",
+    "doi": "10.1109/AAIML67890.2026.11498153",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Climate Data for Power Systems Applications: Lessons in Reusing Wildfire Smoke Data for Solar PV Studies",
+    "venue": "Hawaii International Conference on System Sciences",
+    "doi": "10.48550/arXiv.2509.09888",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Wildfire Detection Based on Satellite Images Using Deep Learning",
+    "venue": "2025 8th International Conference on Artificial Intelligence and Big Data (ICAIBD)",
+    "doi": "10.1109/ICAIBD64986.2025.11082067",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Is methane the'climate culprit'? The dangers of using imprecise, long-term GWP for methane to address the climate emergency",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Rapid increase in atmospheric CH 4 and decrease in δ 13 C CH4 from 2020 to 2022 suggest a dominant microbial emission increase",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Vegetation greening enhances global �re activity",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Extension of the S5P-TROPOMI CCD tropospheric ozone retrieval to mid-latitudes",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Ammonia emissions and depositions over the contiguous United States derived 1 from IASI and CrIS using the directional derivative approach 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global patterns and drivers of climate-driven fires in a warming 1 world 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global wildﬁre patterns and drivers under climate change",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Wildfire Smoke and Road Accidents: Evidence from Alberta",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Towards a parametric Kalman filter for operational wildfire plume assimilation: Formulation of the forecast step",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Fire carbon emission constraints from space-based carbon monoxide retrievals during the 2019 intense burning season in Brazil",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Incorporating observed ﬁre severity in reﬁned emissions estimates for boreal and temperate forest ﬁres in the carbon budget model CBM-CFS3 v1.2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Mixing states and composition of fine aerosol particles in the 2023 Canadian wildfire plumes detected in southern Greenland",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Long range transport of Canadian wildﬁre smoke to Europe in 2023: aerosol properties and spectral features of smoke particles",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "CO emissions and NO x /CO ratios from the extreme 2025 Iberian wildfires: TROPOMI-based estimates and comparison with inventories",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Phenology, ﬂuxes and their drivers in major Indian agroecosystems: A modeling study using the Community Land Model (CLM5)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Using OCO-2 Observations to Constrain Regional CO2 Fluxes Estimated with the Vegetation, Photosynthesis and Respiration Model",
+    "venue": "Remote Sensing",
+    "doi": "10.3390/rs17020177",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Posterior Uncertainty Estimation via a Monte Carlo Procedure Specialized for Data Assimilation",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Assimilating the dynamic spatial gradient of a bottom-up carbon flux estimation as a unique observation in COLA (v2.0)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The importance of digital elevation model accuracy in X CO 2 retrievals: improving the OCO-2 ACOS v11 product",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Towards Low-Latency Estimation of Atmospheric CO2 Growth Rates using Satellite Observations: Evaluating Sampling Errors of Satellite and In Situ Observing Approaches",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A global surface CO 2 ﬂux dataset (2015–2022) inferred from OCO-2 retrievals using the GONGGA inversion system",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "X-BASE: the ﬁrst terrestrial carbon and water ﬂux products from an extended data-driven scaling framework, FLUXCOM-X",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Uncertainties in OCO-2 satellite retrievals of XCO 2 limit diagnosis of 1 transport model simulation uncertainty 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global Greenhouse Gas Reconciliation 2022 1",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantification of regional net CO 2 flux errors in the v10 OCO-2 MIP ensemble using airborne measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Long-term observations of atmospheric CO 2 and CH 4 trends and comparison of two measurement systems at Pallas-Sammaltunturi station in Northern Finland",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "State-wide California 2020 Carbon Dioxide Budget Estimated 1 with OCO-2 and OCO-3 satellite data 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "To what extent does CO 2 diurnal cycle impact carbon flux estimates in CarboScope?",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Differentiable Land Model Reveals Global Environmental Controls on Ecological Parameters",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Changes in Oceanic Carbon Storage due to 1 Anthropogenic Carbon Input over the Past Three 2 Decades",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An optimal transformation method applied to diagnosing the ocean carbon sink",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "TERRESTRIAL BROWNING FROM COLORED DISSOLVED ORGANIC MATTER (CDOM) CHANGES THE SEASONAL PHENOLOGY OF THE COASTAL ARCTIC CARBON CYCLE",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "of Colored dissolved organic matter (CDOM) alters the seasonal physics and biogeochemistry of the Arctic Mackenzie River plume",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "60 years of global air-sea CO 2 flux variability",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The role of biologically-mediated fragmentation in carbon flux attenuation in a 1-D mechanistic particle model",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Harmonizing Terrestrial Carbon Cycle Observations Over CONUS NEON Sites: Assessing the Information Contributions of Multiple Data Constraints",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2025.06.11.659109",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Bayesian hierarchical framework for fusion of remote sensing data: An example with solar-induced fluorescence",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Comment on gmd-2021-190",
+    "venue": "",
+    "doi": "10.5194/gmd-2021-190-rc2",
+    "reason": "tier2_crossref:peer-review"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Four years of global carbon cycle observed from OCO-2 version 9 and in situ data, and comparison to OCO-2 v7",
+    "venue": "",
+    "doi": "10.5194/acp-2021-373",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Accurate Simulation of Both Sensitivity and Variability for Amazonian Photosynthesis: Is It Too Much to Ask?",
+    "venue": "Journal of Advances in Modeling Earth Systems",
+    "doi": "10.1029/2021MS002555",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Information content of soil hydrology in the Amazon as informed by\nGRACE",
+    "venue": "",
+    "doi": "10.5194/HESS-2021-104",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Review of Yang et al. “CARDAMOM-FluxVal Version 1.0: a FLUXNET-based Validation System for CARDAMOM Carbon and Water Flux Estimates” Reviewer 1 General Comments",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A ten-year global monthly averaged terrestrial NEE inferred from the ACOS GOSAT v9 XCO2 retrievals (GCAS2021)",
+    "venue": "",
+    "doi": "10.5194/essd-2022-15",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "AGU Advances First Revision of The carbon cycle of southeast Australia during 2019-2020 : Drought , fires and subsequent recovery",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Original Version",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A GOSAT-Based Assessment of Interannual Variability in Terrestrial CO₂ Fluxes and Its Hydroclimatic Drivers",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Synthesis of Global Coastal Ocean Greenhouse Gas Fluxes",
+    "venue": "Global Biogeochemical Cycles",
+    "doi": "10.1029/2023GB007803",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Solar-induced fluorescence products show variable skill in constraining global patterns in biospheric CO2 fluxes",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Reconstructing ocean carbon storage with CMIP6 models and synthetic Argo observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Modeling considerations for research on Ocean Alkalinity Enhancement (OAE)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Modelling considerations for research on ocean alkalinity enhancement (OAE)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Supplement of Global nitrous oxide budget (1980–2020)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "and future projections of global inland and coastal nitrogen and phosphorus loads due to finfish",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Efﬁciency metrics for ocean alkalinity enhancements under responsive and prescribed atmospheric p CO 2 conditions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "ScholarWorks SJSU ScholarWorks",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An Error Model for Evaluating the Accuracy of Satellite-Based XCO$_2$ Products",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "pyVPRM: a next-generation vegetation photosynthesis and respiration model for the post-MODIS era",
+    "venue": "Geoscientific Model Development",
+    "doi": "10.5194/gmd-18-4713-2025",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Conditional Diffusion-Based Retrieval of Atmospheric CO2 from Earth Observing Spectroscopy",
+    "venue": "arXiv.org",
+    "doi": "10.48550/arXiv.2504.17074",
+    "reason": "tier1_venue_pattern:arxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interannual variability in the Australian carbon cycle over 2015–2019, based on assimilation of OCO-2 satellite data",
+    "venue": "",
+    "doi": "10.5194/acp-2022-15",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Seasonal strength of terrestrial net ecosystem CO2 exchange from North America is underestimated in global inverse modeling",
+    "venue": "",
+    "doi": "10.1002/essoar.10507792.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Neural Network Based Estimation of Regional Scale Anthropogenic CO2 Emissions Using OCO-2 Dataset Over East and West Asia",
+    "venue": "",
+    "doi": "10.5194/amt-2021-222",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A global CO2 flux dataset (2015–2019) inferred from OCO-2 retrievals using the Tan-Tracker inversion system",
+    "venue": "",
+    "doi": "10.5194/ESSD-2021-210",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Decreasing emissions and increasing sink capacity to support China in achieving carbon neutrality before 2060",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "WOMBAT: A fully Bayesian global flux-inversion framework",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Calculating an error correlation length scale from MFLL-OCO-2 column-average CO2 differences and using it to average OCO-2 data",
+    "venue": "",
+    "doi": "10.1002/ESSOAR.10505688.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The Community Inversion Framework v1.0: a unified system for atmospheric inversion studies",
+    "venue": "",
+    "doi": "10.5194/gmd-2020-407",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to referees’ comments",
+    "venue": "",
+    "doi": "10.5194/bg-2017-69-ac4",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "On the relationship between tropospheric CO and CO2 during KORUS-AQ\nand its role in constraining anthropogenic CO2",
+    "venue": "",
+    "doi": "10.5194/acp-2020-864",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Supplementary material to \"Linking global terrestrial CO2 fluxes and environmental drivers using OCO-2 and a geostatistical inverse model\"",
+    "venue": "",
+    "doi": "10.5194/acp-2020-285-supplement",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Evaluating two soil carbon models within a global land surface model using surface and spaceborne observations of atmospheric CO2 mole fractions",
+    "venue": "",
+    "doi": "10.5194/bg-2020-7",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The potential of OCO-2 data to reduce the uncertainties in CO2 surface fluxes over Australia using a variational assimilation scheme",
+    "venue": "",
+    "doi": "10.5194/acp-2019-874",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Characterization of OCO-2 and ACOS-GOSAT biases and errors for CO2 flux estimates",
+    "venue": "",
+    "doi": "10.5194/amt-2019-257",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Evaluating nighttime lights and population distribution as proxies for mappinganthropogenic CO2 emission in Vietnam, Cambodia and Laos",
+    "venue": "IOP Conference Series: Materials Science and Engineering",
+    "doi": "10.1088/2515-7620/ab3d91",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Objective evaluation of surface- and satellite-driven CO2 atmospheric inversions",
+    "venue": "",
+    "doi": "10.5194/ACP-2019-213",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Improved Retrievals of Carbon Dioxide from the Orbiting Carbon\nObservatory-2 with the version 8 ACOS algorithm",
+    "venue": "",
+    "doi": "10.5194/amt-2018-257",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Direct Estimation of Global Anthropogenic CO 2 Emissions Using Satellite Data",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A non-linear data driven approach to bias correction of XCO2 for OCO-2 NASA ACOS version 10",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global and regional carbon budget 2015–2020 inferred from OCO-2 based on an ensemble Kalman filter coupled with GEOS-Chem",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Comment on acp-2021-1039",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Terrestrial carbon cycle: tipping edge of climate change between the atmosphere and biosphere ecosystems",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Optimizing Four Years of CO2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Functional ANOVA for Carbon Flux Estimates from Remote Sensing Data",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Supplement of Linking global terrestrial CO2 fluxes and environmental drivers: infer- ences from the Orbiting Carbon Observatory 2 satellite and terrestrial biospheric models",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to reviewers: ACP-2021-16",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Comment on essd-2021-210 Anonymous",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to reviewers: ACP-2019-874",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Theoretical Basis Document: Detecting common patterns and systematic diﬀerences between ﬂux maps obtained under diﬀerent scenarios",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying uncertainties of satellite NO 2 superobservations for data assimilation and model evaluation",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to reviews of egusphere-2024-1735 by Bot´ıa et al.",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantiﬁcation of regional net CO 2 ﬂux errors in the Orbiting Carbon Observatory-2 (OCO-2) v10 model intercomparison project (MIP) ensemble using airborne measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantification of regional terrestrial biosphere CO 2 flux errors in v10 OCO-2 MIP models using airborne measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantification of regional terrestrial biosphere CO 2 flux errors in v10 OCO-2 MIP ensemble using airborne measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Manuscript: Functional ANOVA for Carbon Flux Estimates from Remote Sensing Data",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Joint CO2 mole fraction and flux analysis confirms missing Joint CO2 mole fraction and flux analysis confirms missing processes in CASA terrestrial carbon uptake Over North America processes in CASA terrestrial carbon uptake Over North America",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Direct quantification of anthropogenic CO 2 emissions: Insights from Satellite Observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Combined CO 2 measurement record indicates Amazon forest carbon uptake is offset by savanna carbon release",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "WOMBAT v1.0: A fully Bayesian global ﬂux-inversion framework",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Auditing the Global Carbon Budget: Exploring the 2024--2025 Vintage Shift",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Investigation of regional variations in CO$_2$ growth rates : Integrating Emission Inventories and Atmospheric Observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Delayed Pantropical Carbon Sink Recovery Due To Asynchronous Post‐El Niño Photosynthesis and Respiration Trajectories",
+    "venue": "Geophysical Research Letters",
+    "doi": "10.1029/2025GL116236",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Impacts of Spatial Resolution and XCO2 Precision on Satellite Capability for CO2 Plumes Detection",
+    "venue": "Italian National Conference on Sensors",
+    "doi": "10.3390/s24061881",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Dual-comb spectroscopy over 100km open-air path",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An improved carbon greenhouse gas simulation in GEOS-Chem version 12.1.1",
+    "venue": "",
+    "doi": "10.5194/GMD-2021-173",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Deurbanization and Rural Development",
+    "venue": "",
+    "doi": "10.1007/978-3-030-62376-0_15",
+    "reason": "tier2_crossref:book-chapter"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Decadal Variability in Land Carbon Sink Efficiency Reveals Apparent Trend Reversal After 2009",
+    "venue": "",
+    "doi": "10.21203/rs.3.rs-101487/v1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Calibrating satellite-derived carbon fluxes for retrospective and near real-time assimilation systems",
+    "venue": "",
+    "doi": "10.5194/acp-2020-496",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Outsized contribution of the semi-arid ecosystems to interannual variability in North American ecosystems",
+    "venue": "",
+    "doi": "10.1002/essoar.10502484.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Lagged effects dominate the inter-annual variability of the 2010–2015 tropical carbon balance",
+    "venue": "",
+    "doi": "10.5194/bg-2019-459",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Proposing the solar wind-energy-flux hypothesis as a driver of interannual variation in tropical tree reproductive effort tropical tree reproduction",
+    "venue": "bioRxiv",
+    "doi": "10.1101/606871",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The OCO-3 mission; measurement objectives and expected\nperformance based on one year of simulated data",
+    "venue": "",
+    "doi": "10.5194/amt-2018-357-rc1",
+    "reason": "tier2_crossref:peer-review"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to reviewer 1 comments",
+    "venue": "",
+    "doi": "10.5194/hess-2018-36-ac1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Supplementary material to \"Global atmospheric CO2 inverse models converging on neutral tropical land exchange but diverging on fossil fuel and atmospheric growth rate\"",
+    "venue": "",
+    "doi": "10.5194/bg-2018-384-supplement",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Amazon drought and forest response: Largely reduced forest photosynthesis but slightly increased canopy greenness during the extreme drought of 2015/2016",
+    "venue": "Global Change Biology",
+    "doi": "10.1111/gcb.14056",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Higher absorbed solar radiation partly offset the negative effects of water stress on the photosynthesis of Amazon forests during the 2015 drought",
+    "venue": "",
+    "doi": "10.1088/1748-9326/aab0b1",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interannual Variation and Trend of Carbon Budget Observed Over a 28-year Period at Takayama in a Cool-Temperate Deciduous Forest in Central Japan",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The NASA Carbon Monitoring System Phase 2 synthesis: scope, findings, gaps and recommended next steps",
+    "venue": "",
+    "doi": "10.1088/1748-9326/ac7407",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Using OCO-2 column CO 2 retrievals to rapidly detect and estimate biospheric surface carbon flux anomalies",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "TROPESS/CrIS carbon monoxide profile validation with NOAA GML and ATom in situ 1 aircraft observations 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global Terrestrial Ecosystem Carbon Flux Inferred from TanSat XCO 2 Retriev-1 als 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Manuscript: ”Spectral Sizing of a Coarse Spectral Resolution Satel- lite Sensor for XCO2” by JS Wilzewski et al. Reply to anonymous reviewer #4",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Research Online Research Online Ensemble-based satellite-derived carbon dioxide and methane Ensemble-based satellite-derived carbon dioxide and methane column-averaged dry-air mole fraction data sets (2003-2018) for column-averaged dry-air mole fraction data sets (2003-2018) for carbon and climate a",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying immediate carbon emissions from El Niño-mediated wildfires in 2 humid tropical forests 3",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Track changes for: Towards a global understanding of vegetation–climate dynamics at multiple time scales",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The Importance of Physiological, Structural and Trait",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Towards a global understanding of vegetation–climate dynamics at multiple time scales",
+    "venue": "",
+    "doi": "10.5194/bg-2019-321",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "University of Birmingham A spatial and temporal risk assessment of the impacts of El Niño on the tropical forest carbon cycle",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “Computation and analysis of atmospheric carbon dioxide annual mean growth rates from satellite observations during 2003–2016” by Michael Buchwitz et al",
+    "venue": "",
+    "doi": "10.5194/acp-2018-158",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Differences of the inverted terrestrial ecosystem carbon flux between using GO-1 SAT and OCO-2 XCO 2 retrievals 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "CO flux estimates using remote sensing and a Lagrangian model",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "3 Reply to Anonymous Referee # 1",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The Terrestrial Carbon Sink",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The ECCO-Darwin Data-Assimilative Global Ocean The ECCO-Darwin Data-Assimilative Global Ocean Biogeochemistry Model: Estimates of Seasonal to Multidecadal Biogeochemistry Model: Estimates of Seasonal to Multidecadal Surface Ocean Surface Ocean pCOCO 22 and Air-Sea CO and Air-Sea CO 22 Flux Flux",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Sensitivity of tropical woodland savannas to El Niño droughts",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive effects of the El Ni ˜ no-Southern Oscillation and Indian Ocean Dipole on the tropical net ecosystem productivity",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "How does green innovation support carbon neutrality? A global bibliometric analysis of 2 research trends and thematic evolution",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Carbon-I: Expanding the Frontiers of Carbon Cycle Science",
+    "venue": "IEEE Aerospace Conference",
+    "doi": "10.1109/AERO66936.2026.11519899",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Anthropogenic impact on arctic near-surface methane: observations and model simulations",
+    "venue": "IOP Conference Series: Earth and Environment",
+    "doi": "10.1088/1755-1315/1040/1/012033",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Analysis of CO2, CH4 and CO surface and column concentrations observed at Reunion Island by assessing WRF-Chem simulations",
+    "venue": "",
+    "doi": "10.5194/acp-2022-106",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Evaluation of Wetland CH4 in the JULES Land Surface Model Using Satellite Observations",
+    "venue": "",
+    "doi": "10.5194/bg-2022-2",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Continuous CH4 and δ13CH4 measurements in London demonstrate under-reported natural gas leakage",
+    "venue": "",
+    "doi": "10.5194/acp-2021-606",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The consolidated European synthesis of CH4 and N2O emissions for the European Union and United Kingdom: 1990–2017",
+    "venue": "Earth System Science Data",
+    "doi": "10.5194/ESSD-13-2307-2021",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Continuous CH4 and  d13CH4 measurements in London demonstrate under-reported natural gas leakage",
+    "venue": "",
+    "doi": "10.5194/EGUSPHERE-EGU21-10995",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Exploring Constraints on a Wetland Methane Emission Ensemble\n(WetCHARTs) using GOSAT Satellite Observations",
+    "venue": "",
+    "doi": "10.5194/bg-2020-284",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Innovations in Modeling and Statistical Analysis for Greenhouse Gas Flux Monitoring",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Font : Italic Formatted : Font : Italic Formatted : Subscript Formatted : Subscript Formatted : Font : 9 pt Formatted : Font : Italic Formatted : Font : Italic Formatted : Centred",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Methane emissions responsible for record-breaking atmospheric methane growth rates in 2020 and 2021",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Supplement of WETMETH 1.0: a new wetland methane model for implementation in Earth system models",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “Investigation of the global methane budget over 1980–2017 using GFDL-AM4.1” by Jian He et al",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Remote Sensing of Environment Evaluating year-to-year anomalies in tropical wetland methane emissions using satellite CH 4 observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Analysis of the trends in ambient methane in the Baltimore-Washington region and comparison to model output",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Assessment of methane emissions from European countries using satellite and surface observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A WRF-Chem study on the variability of CO 2 , CH 4 and CO concentrations at Xianghe, China supported by ground-based observations and TROPOMI",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Estimation of Canada’s methane emissions: inverse modelling analysis using the ECCC measurement network",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "WetCH 4 : A Machine Learning-based 1 Upscaling of Methane Fluxes of 2 Northern Wetlands during 2016-2022 3",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Emissions of methane from coal ﬁelds, thermal power plants, and wetlands and their implications for atmospheric methane across the south Asian region",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Modelling wetland methane emission estimates by leveraging new observations of anthropogenic point-source plumes",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Potential of point source imaging satellite instruments to infer diffuse methane emissions: a theoretical case study of the Near-Infrared Multispectral Camera (NIMCAM)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Atmospheric methane growth rates, 2018-2024, driven mainly by emission changes but atmospheric photochemistry is important",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "$\\text{CO}_{2}$-Net: A Physics-Informed Spatio-Temporal Model for Global Surface $\\text{CO}_{{2}}$ Reconstruction",
+    "venue": "IEEE International Conference on Computer Vision",
+    "doi": "10.1109/ICCV51701.2025.00587",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Anticipation of Oceanic XCO2 using Data Fusion and AI-Based Approaches",
+    "venue": "IEEE International Conference on Electronics, Computing and Communication Technologies",
+    "doi": "10.1109/CONECCT65861.2025.11306838",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Confidence intervals for functionals in constrained inverse problems via data-adaptive sampling-based calibration",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Emergent constraints on climate—carbon cycle feedbacks from tropical atmospheric aridity",
+    "venue": "",
+    "doi": "10.21203/RS.3.RS-132691/V1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to referees' comments",
+    "venue": "",
+    "doi": "10.5194/acp-2019-213-ac1",
+    "reason": "tier2_crossref:peer-review"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A comparison of atmospheric CO 2 flux signals obtained from GEOS-Chem flux inversions constrained by in situ or GOSAT observations",
+    "venue": "",
+    "doi": "10.5194/ACP-2017-1235",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Global Synthesis Inversion Analysis of Recent Variability in CO2 Fluxes Using GOSAT and In Situ Observations.",
+    "venue": "Atmospheric Chemistry and Physics",
+    "doi": "10.5194/ACP-18-11097-2018",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Does GOSAT capture the true seasonal cycle of XCO 2",
+    "venue": "",
+    "doi": "10.5194/ACPD-15-16461-2015",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying lower tropospheric methane concentrations using near-IR and thermal IR satellite measurements: comparison to the GEOS-Chem model",
+    "venue": "",
+    "doi": "10.5194/AMTD-8-3851-2015",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Elevated uptake of CO 2 over Europe inferred from GOSAT X CO 2 retrievals: a real phenomenon or an artefact of the analysis?",
+    "venue": "",
+    "doi": "10.5194/ACPD-15-1989-2015",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “Geostatistical inverse modeling with very large datasets: an example from the OCO-2 satellite”",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "From a Simple Ecosystem Model With Assimilated Data Is Consistent With Terrestrial",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “Characterizing biospheric carbon balance using CO 2 observations from the OCO-2 satellite” by",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Time-filtered inverse modeling of land-atmosphere carbon exchange",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Elevated uptake of CO2 over Europe inferred from GOSAT XCO2 retrievals",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Enhancing Soil Carbon Content Classification Using Transfer Learning and FrFT on Millimeter Wave Radar Array Signals with Varied Backgrounds",
+    "venue": "2024 6th International Conference on Industrial Artificial Intelligence (IAI)",
+    "doi": "10.1109/IAI63275.2024.10730080",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Soil Carbon Content Quantification Method Using A Miniature Millimeter Wave Radar Sensor and Machine Learning",
+    "venue": "IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications",
+    "doi": "10.1109/MESA55290.2022.10004474",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Optimal Antenna Pairing of A Miniaturized Radar Array for Smart Sensing of Soil Carbon Content",
+    "venue": "2022 4th International Conference on Industrial Artificial Intelligence (IAI)",
+    "doi": "10.1109/IAI55780.2022.9976505",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Remote sensing of methane plumes: instrument tradeoff analysis for detecting and quantifying local sources at global scale",
+    "venue": "",
+    "doi": "10.5194/AMT-2021-205",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantification of CH4 coal mining emissions in Upper Silesia by passive airborne remote sensing observations with the MAMAP instrument during CoMet",
+    "venue": "",
+    "doi": "10.5194/ACP-2020-1014",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Underestimates of US emissions and global implications for industrializing animal agriculture",
+    "venue": "",
+    "doi": "10.15868/socialsector.36458",
+    "reason": "tier2_crossref:report"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Wireless Sensor Networks for Fugitive Methane Emissions Monitoring in Oil and Gas Industry",
+    "venue": "International Conference on Informatics, IoT, and Enabling Technologies",
+    "doi": "10.1109/ICIOT.2018.00013",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Increasing Livestock Consumption and Its Impact on Climate Change Mitigation Targets",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interpreting Satellite Remote Sensing Observations using a Chemical Transport Model: Implications for Processes affecting Tropospheric NOx and Ozone",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Assimilation of satellite NO 2 observations at high spatial resolution",
+    "venue": "",
+    "doi": "10.5194/ACP-2016-770",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Constraining sector-specific CO 2 and CH 4 emissions in the United States",
+    "venue": "",
+    "doi": "10.5194/ACP-2016-643",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Mapping pan-Arctic methane emissions at high spatial resolution using an adjoint atmospheric transport and inversion method and process-based wetland and lake biogeochemical models",
+    "venue": "",
+    "doi": "10.5194/ACPD-15-32469-2015",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The imprint of stratospheric transport on column-averaged methane",
+    "venue": "",
+    "doi": "10.5194/ACPD-15-20395-2015",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Seamless mapping of long-term (2010-2020) daily global XCO2 and XCH4 from GOSAT, OCO-2, and CAMS-EGG4 with a spatiotemporally self-supervised fusion method",
+    "venue": "",
+    "doi": "10.5194/essd-2023-28",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Application of a new UAV measurement methodology to the 1 quantification of CO 2 and CH 4 emissions from a major coking 2 plant 3",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "From Source to Sink: Measuring and Modeling Processes Affecting Methane Emissions and Loss",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Improvements of a low-cost CO 2 commercial NDIR sensor for UAV atmospheric mapping applications",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Emissions in Canada using ECCC Surface and GOSAT Satellite",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "AGU Advances Authors’ Response to Peer Review Comments on Satellite constraints on the latitudinal distribution and temperature sensitivity of wetland methane emissions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Aircraft-Based Flux Density Measurements",
+    "venue": "Springer Handbook of Atmospheric Measurements",
+    "doi": "10.1007/978-3-030-52171-4_48",
+    "reason": "tier1_venue_pattern:handbook"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to Review Comments for A Decade of GOSAT Proxy XCH4 Observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Emission Monitoring Mobile Experiment (EMME): an overview and first results of the St. Petersburg megacity campaign-2019",
+    "venue": "",
+    "doi": "10.5194/amt-2020-87",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "ArticleBias Correction of the Ratio of Total Column CH4 to CO",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Mineralization of organic matter in boreal lake sediments: Rates, pathways and nature of the fermenting substrates",
+    "venue": "",
+    "doi": "10.1002/essoar.10501422.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Characterizing model errors in chemical transport modelling of methane: Using GOSAT XCH4 data with weak constraint four-dimensional variational data assimilation",
+    "venue": "",
+    "doi": "10.5194/acp-2019-786",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Comparing Policies to Reduce Methane Emissions in the Natural Gas Sector",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Top-down constraints on global N [ subscript 2 ] O emissions at optimal resolution : application of a new dimension reduction technique",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Herbivory and litter production in response to nutrient addition in “Terra Firme” forest in Central Amazon – Herivoria e produção de serapilheira em resposta à adição de nutrientes em floresta de terra firma na Amazônia Central",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Catalytic Oxidation of Methane Over Alumina Supported Palladium Oxides",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Plant-Based Diets for Mitigating Climate Change",
+    "venue": "",
+    "doi": "10.1016/B978-0-12-803968-7.00009-5",
+    "reason": "tier2_crossref:book-chapter"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Japanese Satellite Earth Observation: Status and Policy Issues",
+    "venue": "",
+    "doi": "10.1007/978-981-10-3713-9_10",
+    "reason": "tier2_crossref:book-chapter"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Vegetarian and Plant-Based Diets in Health and Disease Prevention",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying terrestrial and aquatic ecosystem methane emissions with process-based biogeochemistry and atmospheric transport and chemistry models",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Mapping Pan-arctic Methane Emissions Printer-friendly Version Interactive Discussion Mapping Pan-arctic Methane Emissions at High Spatial Resolution Using an Adjoint Atmospheric Transport and Inversion Method and Process-based Wetland and Lake Biogeochemical Models Acpd Mapping Pan-arctic Methane Em",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "CATALYTIC OXIDATION OF IVIFTIIANE.OV.ER ALUMINA SUPPORTED PALI ODIUM OXIDES",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “ The ability of atmospheric data to resolve discrepancies in wetland methane estimates over North America ” by S",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "FINCH: A Blueprint for Accessible and Scientifically Valuable Remote Sensing Missions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Global CH 4 Fluxes Derived from JAXA/GOSAT Lower Tropospheric Partial Column Data and the CTE-CH 4 Atmospheric Inverse Model",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Methane retrieval from MethaneAIR using the CO 2 proxy approach: a demonstration for the upcoming MethaneSAT mission",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "5 Years of GOSAT-2 Retrievals with RemoTeC: XCO 2 and XCH 4 Data Products with Quality Filtering by Machine Learning",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying national, state, and oil/gas ﬁeld methane emissions and trends in the US (2019–2024) through high resolution inversion of satellite observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Impact of atmospheric transport on CO 2 flux estimates derived from the atmospheric tracer inversions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Estimation of Net Primary Productivity: An Introduction to Different Approaches",
+    "venue": "",
+    "doi": "10.1007/978-3-030-56542-8_2",
+    "reason": "tier2_crossref:book-chapter"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Review of the Radon Tracer Method for GHG emission estimates: development, application guidelines, improvements, and caveats",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A CO 2 - ∆ 14 CO 2 inversion setup for estimating European fossil CO 2 emissions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Can ∆ 14 CO 2 observations help atmospheric inversions constrain the fossil CO 2 emission budget of Europe?",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Carbon dioxide (CO2) variations across India: Synthesis of observations and model simulations",
+    "venue": "Atmospheric Environment",
+    "doi": "10.1016/j.atmosenv.2025.121746",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The Adaptable 4A Inversion (5AI): Description and first XCO2 retrievals from OCO-2 observations",
+    "venue": "",
+    "doi": "10.5194/amt-2020-403",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A dual-pass carbon cycle data assimilation system to estimate surface CO2 fluxes and 3D atmospheric CO2 concentrations from spaceborne measurements of atmospheric CO2",
+    "venue": "",
+    "doi": "10.5194/GMD-2019-54",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "On the impact of recent developments of an atmospheric general\ncirculation model on the simulation of CO2 transport",
+    "venue": "",
+    "doi": "10.5194/gmd-2018-164",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "MEASURES 2017 Data Fusion (v3) Algorithm Theoretical Basis Document",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Whitepaper: Understanding land-atmosphere interactions through tower-based flux and continuous atmospheric boundary layer measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Retrieval of atmospheric CO2 vertical profiles from ground-based\nnear-infrared spectra",
+    "venue": "",
+    "doi": "10.5194/amt-2020-429",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "MEASURES 2017 Data Fusion Algorithm Theoretical Basis Document",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Development of a Compact CO2 Instrument for Small Aerial Platforms",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "doi": "10.1364/cleo_at.2019.am1k.5",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A dual-pass global carbon cycle data assimilation system Tan-Tracker (v1) to estimate surface CO2 fluxes and 3D atmospheric CO2 concentrations from spaceborne measurements of atmospheric CO2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Reply to reviewers” by Marine Remaud et al",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "EnviFlux (v1.0): a simplified surface flux inversion tool based on four-dimensional variational data assimilation (4D-Var)",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "MEASURES 2017 Data Fusion (v2) Algorithm Theoretical Basis Document",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantification of regional terrestrial biosphere CO 2 flux errors in v10 OCO-2 MIP modelsensemble using airborne measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Recent Advances in Air Quality Monitoring and CO2 Emission Estimation: A Comprehensive Review",
+    "venue": "International Conference on Intelligent Information Processing",
+    "doi": "10.1109/ICIIP61524.2023.10537727",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Response to reviewers",
+    "venue": "",
+    "doi": "10.5194/acp-2020-285-ac1",
+    "reason": "tier2_crossref:peer-review"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Reply to Interactive Comments",
+    "venue": "",
+    "doi": "10.5194/bg-2019-2-ac2",
+    "reason": "tier2_crossref:peer-review"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Quantifying Trends in Methane, Nitrous Oxide, and Carbon Monoxide Emissions in the Los Angeles Basin Using Remote Sensing Spectroscopy at CLARS: Final Report",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Establishing an Eionet Group of In Situ Data Experts",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Second reply to interactive comments",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "of Towards sector-based attribution using intra-city variations in satellite-based emission ratios between CO 2 and CO",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Evaluating the meteorological transport model ensemble for accounting uncertainties in carbon flux estimation over India",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Enabling High-Accuracy Data Assimilation with Limited Ensembles via Machine Learning-Based Covariance Correction",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Variability of North Atlantic CO2 fluxes for the 2000–2017 period",
+    "venue": "",
+    "doi": "10.5194/bg-2020-385",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Application of the ensemble Kalman filter to environmental data assimilation",
+    "venue": "IOP Conference Series: Earth and Environment",
+    "doi": "10.1088/1755-1315/211/1/012049",
+    "reason": "tier1_conference_proceedings"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The impact of meteorological analysis uncertainties on the spatial scales resolvable in CO 2 model simulations",
+    "venue": "",
+    "doi": "10.5194/ACP-2016-346",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Global Carbon Assimilation System using a modified EnKF assimilation method",
+    "venue": "",
+    "doi": "10.5194/GMDD-7-6519-2014",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Comparison of ensemble Kalman filter and variational approaches for CO 2 data assimilation",
+    "venue": "",
+    "doi": "10.5194/ACPD-13-12825-2013",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “ Variability of North Atlantic CO 2 fluxes for the 2000-2017 period ” by Zhaohui",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Earth and Space Science The Challenge of Atmospheric Data Assimilation onMars",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "OF ESTIMATION OF GREENHOUSE GASES CONCENTRATION IN THE ATMOSPHERE USING OBSERVATIONS AND TRANSPORT AND DIFFUSION MODEL , BASED ON THE ENSEMBLE KALMAN FILTER",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "REVIEW Review of the Ensemble Kalman Filter for Atmospheric Data Assimilation",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Zentrum für Technomathematik Fachbereich 3 – Mathematik und Informatik On the choice of an optimal localization radius in ensemble Kalman filter methods",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “ The potential for regional-scale bias in top-down CO 2 flux estimates due to atmospheric transport errors ” by S",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Improving the ensemble square root ﬁlter (EnSRF) in the Community Inversion Framework: a case study with ICON-ART 2024.01",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Data Assimilation Shell (CTDAS) v1",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An increasing Arctic-boreal CO2 sink offset by wildfires and source regions",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2024.02.09.579581",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Wildfire‐induced increases in photosynthesis in boreal forest ecosystems of North America",
+    "venue": "Global Change Biology",
+    "doi": "10.1111/gcb.17151",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Resolving heterogeneous ﬂuxes from tundra halves the growing season carbon budget",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Warming and Disturbances Affect North American Arctic-Boreal Vegetation Resilience",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Methane ﬂuxes from Arctic & boreal North America: comparisons between process-based estimates and atmospheric observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "The 2020 COVID-19 pandemic and atmospheric composition: back to the future",
+    "venue": "",
+    "doi": "10.1002/ESSOAR.10506081.1",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Atmospheric carbon cycle dynamics over the ABoVEdomain: an integrated analysis using aircraft observations (Arctic-CAP) and model simulations (GEOS)",
+    "venue": "",
+    "doi": "10.5194/acp-2020-609",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Machine Learning for Inferring CO2 Fluxes: The New Metaphysics of Neural Nets",
+    "venue": "",
+    "doi": "10.31223/osf.io/9gb8d",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Development of the WRF-CO2 4DVar assimilation system",
+    "venue": "",
+    "doi": "10.5194/GMD-2016-289",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Inverse modelling of New Zealand’s carbon dioxide balance estimates a larger than expected carbon sink",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An eleven year record of XCO2 estimates derived from GOSAT measurements using the NASA ACOS version 9 retrieval algorithm",
+    "venue": "",
+    "doi": "10.5194/essd-2021-247",
+    "reason": "tier2_crossref:posted-content"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Indonesian Journal of Electrical Engineering and Computer Science",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Observation of GHG vertical profile in the boundary layer of the Mount Qomolangma region using a multirotor UAV",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Emissions of climate-altering species from open vegetation fires in the Mediterranean region - A review on methods and data",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2024.07.26.605246",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Goal oriented indicators for food systems based on FAIR data",
+    "venue": "arXiv.org",
+    "doi": "10.48550/arXiv.2302.09916",
+    "reason": "tier1_venue_pattern:arxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "German methane ﬂuxes in 2021 estimated with an ensemble-enhanced scaling inversion based on the ICON–ART model",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Accuracy of tracer-based methane ﬂux quantiﬁcation: underlying impact of calibrating acetylene measurements",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Methane intensity and emissions across major oil and gas basins 1 and individual jurisdictions using MethaneSAT observations 2",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Optimization of the Gaussian Dispersion Model Inversion for Estimating Facility Scale Methane Emissions in Canada",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Agricultural methane plume detection using MethaneAIR: A targeted scene-based approach with wavelet denoising and divergence integral methods.",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Detection and quantiﬁcation of agricultural methane plumes using MethaneAIR through targeted scene selection, wavelet denoising, and divergence-integral analysis",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Using high frequency observations of δ 13 C-CH 4 and δ 2 H-CH 4 and uncertain regional isotopic signatures to estimate sources of UK methane emissions",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Interactive comment on “ Carbon Monitoring System Flux Net Biosphere Exchange 2020 ( CMS-Flux NBE 2020 ) ” by Junjie",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Fluxes during 2010-2015 Inferred from GOSAT XCO 2 2 retrievals using a new version of Global Carbon Assimilation System",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Process-model perspective on recent changes in the carbon A Process-model perspective on recent changes in the carbon cycle of North America cycle of North America",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Discussion of the NASA OCO-2 satellite measurements of CO₂ concentrations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Adjoint-Based Optimization Scheme for Characterizing Sources of Fugitive Emissions",
+    "venue": "",
+    "doi": "10.22215/etd/2018-13366",
+    "reason": "tier2_crossref:dissertation"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "An emergent constraint on the thermal sensitivity of photosynthesis and greenness in the high latitude northern forests",
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-024-56362-1",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Joint Reconstruction and Model Selection Approach for Large Scale Inverse Modeling",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Molecular basis behind the isoprene emission diversity in Fagaceae",
+    "venue": "bioRxiv",
+    "doi": "10.1101/2025.05.17.654689",
+    "reason": "tier1_venue_pattern:biorxiv"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Connecting optical remote sensing of plant photosynthesis with biogenic volatile organic compound emissions",
+    "venue": "New Phytologist",
+    "doi": "10.1111/nph.70504",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Feasibility of robust estimates of ozone production rates 1 using satellite observations",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A long-term reconstruction of a global photosynthesis proxy over 1982–2023",
+    "venue": "Scientific Data",
+    "doi": "10.1038/s41597-025-04686-6",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Robust estimation of daily photosynthesis from instantaneous observations through machine-learning integration of radiation and environmental drivers",
+    "venue": "Agricultural and Forest Meteorology",
+    "doi": "10.1016/j.agrformet.2026.111064",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "A Modified Vegetation Photosynthesis and Respiration Model (VPRM) for the Eastern USA and Canada, Evaluated With Comparison to Atmospheric Observations and Other Biospheric Models",
+    "venue": "Journal of Geophysical Research - Biogeosciences",
+    "doi": "10.1029/2021JG006290",
+    "reason": "tier1_title_pattern:thesis"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Author comments on “A WRF-Chem study on the variability of CO 2 , CH 4 and CO concentrations at Xianghe, China supported by ground-based observations and TROPOMI”",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "EnsAI: An Emulator for Atmospheric Chemical Ensembles",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
+  },
+  {
+    "model": "CMS-Flux",
+    "title": "Multi-scale dynamics of carbon dioxide ﬂux and its environmental drivers in the Pantanal wetland",
+    "venue": "",
+    "doi": "",
+    "reason": "tier1_no_venue_no_doi"
   }
 ]
