@@ -122,6 +122,25 @@ Fetches missing journal/venue info for citation papers using external APIs:
 - Caches results in `scripts/ecco_venue_cache.json` for incremental reruns
 - Run with: `python3 scripts/fetch_ecco_venues.py`
 
+### Affiliation Enrichment (`scripts/enrich_affiliations.py`)
+
+Resolves author-institution countries so the geographic impact map has markers to place and the collaboration lines have papers to link. A line requires an entry with two or more countries in `all_countries`; without enrichment the page falls back to scanning titles and abstracts for place names, which yields exactly one country per paper by construction, so no line can ever be drawn.
+
+Adds `country` (first author's institution), `all_countries` (every distinct affiliation country), and `institutions` (up to 10 names) to each entry in `public/data/{MODEL}_analyzed.json`.
+
+- **OpenAlex** in batches of 50 DOIs (`filter=doi:a|b|c`), so the whole corpus is ~600 requests rather than ~30,000. Institution `country_code` is structured, unlike Crossref's free-text affiliation strings.
+- **Crossref** per-DOI fallback behind `--crossref-fallback` (one request per paper, off by default).
+- Caches every lookup, misses included, in `scripts/affiliation_cache.json`, keyed by normalized DOI and shared across models.
+- `python scripts/enrich_affiliations.py --model RAPID --dry-run` · `--all` · `--limit N` · `--rerun`
+
+Country names must match `ISO2_COUNTRY` in the script and the tables in `src/utils/countryGeo.js`, or a country lands on neither the map nor a region.
+
+Supersedes the per-DOI serial path in `scripts/enrich_geographic.py`, which remains for single-model reruns.
+
+### Country Geography (`src/utils/countryGeo.js`)
+
+Single source of truth for country centroids (`COUNTRY_COORDINATES`) and region assignments (`COUNTRY_REGIONS`), covering ~170 countries. `GoogleMapComponent.js` and `GenericGeographicImpactPage.js` both import from here; they previously carried their own partial literals (55 and 25 countries), so enriched countries outside those lists got no map bubble and fell into the "Other" region.
+
 ### Published Product Catalog (`scripts/build_tropess_catalog.py`)
 
 Fetches a mission's published data-product catalog live from **NASA CMR** (the API behind the DAAC portals) and writes `public/data/{MISSION}_catalog.json`, consumed by `ProductCatalogSection.js` ("Published Data Products" cards: product/level/instrument stats + a data-coverage timeline).
