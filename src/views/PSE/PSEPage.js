@@ -44,7 +44,7 @@ const STATUS_META = {
 // ─── Guardian News API (live) ─────────────────────────────────────────────────
 
 // News is pre-fetched nightly by scripts/fetch_guardian_news.js (cron 10:00 UTC = 2am PT).
-// The React app reads the static file — instant load, no API key in client.
+// The React app reads the static file: instant load, no API key in client.
 const NEWS_JSON_URL = `${process.env.PUBLIC_URL}/guardian_news.json`;
 
 const autoTagModels = (text) => {
@@ -150,7 +150,7 @@ const MODEL_COLORS = {
 const ALL_MODELS = [
   {
     name: 'RAPID', type: 'model', color: '#3B82F6', domain: 'Hydrology',
-    industryPitch: 'Forecast river discharge and flood risk across millions of stream reaches — from irrigation planning to parametric insurance triggers.',
+    industryPitch: 'Forecast river discharge and flood risk across millions of stream reaches, from irrigation planning to parametric insurance triggers.',
     path: '/RAPID',
     website: 'http://rapid-hub.org/',
   },
@@ -210,7 +210,7 @@ const ALL_MODELS = [
   },
   {
     name: 'TROPESS', type: 'mission', color: '#F97316', domain: 'Atmospheric Chemistry',
-    industryPitch: 'NASA CrIS/AIRS-based atmospheric profiling of ozone, CO, and other trace gases — enabling air quality forecasting, regulatory compliance, and pollution source attribution.',
+    industryPitch: 'NASA CrIS/AIRS-based atmospheric profiling of ozone, CO, and other trace gases, enabling air quality forecasting, regulatory compliance, and pollution source attribution.',
     path: '/TROPESS',
     website: 'https://tropess.gesdisc.eosdis.nasa.gov/',
   },
@@ -226,7 +226,7 @@ const SECTOR_MAP = {
       { name: 'RAPID', useCase: 'Simulates river discharge across thousands of reaches, enabling irrigation scheduling and flood damage forecasting for farms along river floodplains.' },
       { name: 'CARDAMOM', useCase: 'Bayesian retrieval of soil moisture dynamics and terrestrial carbon stocks supports crop stress monitoring and precision agriculture decision tools.' },
       { name: 'CMS-Flux', useCase: 'Tracks regional carbon fluxes to power agricultural carbon credit programs and verifiable Scope 3 emissions accounting in food supply chains.' },
-      { name: 'GRACE', useCase: 'Measures monthly groundwater storage anomalies to detect aquifer depletion rates — essential for sustainable irrigation planning in water-stressed regions.' },
+      { name: 'GRACE', useCase: 'Measures monthly groundwater storage anomalies to detect aquifer depletion rates, essential for sustainable irrigation planning in water-stressed regions.' },
       { name: 'SWOT', useCase: 'Global river and lake water level surveys enable precision irrigation planning and early drought warning for crop production.' },
     ],
   },
@@ -828,7 +828,7 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
             {topCompanies.length > 0 && (
               <div>
                 <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                  Top Companies by NASA Alumni — click to view
+                  Top Companies by NASA Alumni (click to view)
                 </h3>
                 <div className="grid grid-cols-2 gap-3">
                   {topCompanies.slice(0, 12).map(([company, people]) => {
@@ -873,11 +873,11 @@ const SectorExplorer = ({ sectorCounts, alumni }) => {
               </div>
             )}
 
-            {/* Sectors with alumni — clickable */}
+            {/* Sectors with alumni, clickable */}
             {Object.keys(sectorAlumniCounts).length > 0 && (
               <div>
                 <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
-                  Sectors with NASA Connections — click to explore
+                  Sectors with NASA Connections (click to explore)
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {Object.entries(sectorAlumniCounts)
@@ -1274,7 +1274,7 @@ const CompanyDirectory = ({ sectorCounts, alumni }) => {
                               href={p.linkedin}
                               target="_blank"
                               rel="noopener noreferrer"
-                              title={`${p.name} — ${p.title}`}
+                              title={`${p.name}: ${p.title}`}
                               className="flex items-center gap-0.5 text-xs text-violet-700 hover:text-violet-900 font-medium"
                             >
                               <User size={11} />
@@ -1685,7 +1685,7 @@ const NewsSection = () => {
         <div className="text-center text-gray-400 py-16 text-sm">No articles match your filters</div>
       )}
       {!loading && articles.length === 0 && !error && (
-        <div className="text-center text-gray-400 py-16 text-sm">No articles returned — try again later</div>
+        <div className="text-center text-gray-400 py-16 text-sm">No articles returned. Try again later</div>
       )}
     </div>
   );
